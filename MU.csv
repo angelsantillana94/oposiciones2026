@@ -49,19 +49,18 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 48,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02200,1,1639,"MARTINEZ VIEDMA, ANTONIO JESUS","1,2810","1,5550","2,8360"
 49,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02620,1,2013,"ORTIZ CASTELLANOS, LUIS","2,0758","0,5300","2,6058"
 50,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02350,1,9719,"MONDEJAR NICOLAS, DOLORES VICTORIA","1,8510","0,4450","2,2960"
-51,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01300,1,4755,"GOMEZ RUBIO, FRANCISCO JAVIER","0,9550","1,0562","2,0112"
-52,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02570,1,0476,"OLIVAS MARTINEZ, ANDREA","1,5646","0,2700","1,8346"
-53,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01900,1,0185,"MARIN ABAD, LUCIA","1,3850","0,3937","1,7787"
-54,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02540,1,8511,"NICOLAS SANCHEZ, AZUCENA CARMEN","0,7070","1,0350","1,7420"
-55,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02180,1,3290,"MARTINEZ SANCHEZ, FERNANDO","0,1320","0,0000","0,1320"
-56,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02280,1,9514,"MIÑANO MORENO, CLOE",NP,--,--
-57,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01940,1,9132,"MARIN PEREA, ROCIO",NP,--,--
-58,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02610,1,9121,"ORTIZ ALBALADEJO, DANIEL",NP,--,--
-59,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01570,1,7587,"LAJARA MAIQUEZ, CARMELO","0,0000",--,--
-60,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01800,1,7571,"LORENTE NAVARRO, VICTOR",NP,--,--
-61,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02040,1,6593,"MARTINEZ GALVEZ, ANGELA",NP,--,--
-62,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02690,1,5805,"PEÑA MANOTAS, MERCEDES","1,2680",--,--
-63,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01290,1,3326,"GOMEZ NAVARRO, MARIA",NP,--,--
-64,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02240,1,1929,"MELGAR GUERRERO, CELIA",NP,--,--
-65,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01870,1,1599,"MANZANERA MARTINEZ, ISABEL MARIA",NP,--,--
-66,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01830,1,1201,"LUCAS LOPEZ, MARIA VIRGINIA",NP,--,--
+51,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02570,1,0476,"OLIVAS MARTINEZ, ANDREA","1,5646","0,2700","1,8346"
+52,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01900,1,0185,"MARIN ABAD, LUCIA","1,3850","0,3937","1,7787"
+53,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02540,1,8511,"NICOLAS SANCHEZ, AZUCENA CARMEN","0,7070","1,0350","1,7420"
+54,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02180,1,3290,"MARTINEZ SANCHEZ, FERNANDO","0,1320","0,0000","0,1320"
+55,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02280,1,9514,"MIÑANO MORENO, CLOE",NP,--,--
+56,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01940,1,9132,"MARIN PEREA, ROCIO",NP,--,--
+57,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02610,1,9121,"ORTIZ ALBALADEJO, DANIEL",NP,--,--
+58,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01570,1,7587,"LAJARA MAIQUEZ, CARMELO","0,0000",--,--
+59,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01800,1,7571,"LORENTE NAVARRO, VICTOR",NP,--,--
+60,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02040,1,6593,"MARTINEZ GALVEZ, ANGELA",NP,--,--
+61,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02690,1,5805,"PEÑA MANOTAS, MERCEDES","1,2680",--,--
+62,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01290,1,3326,"GOMEZ NAVARRO, MARIA",NP,--,--
+63,MU,04,0597MU04_puntuaciones_provisionales_prueba_unica_07031134.pdf,02240,1,1929,"MELGAR GUERRERO, CELIA",NP,--,--
+64,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01870,1,1599,"MANZANERA MARTINEZ, ISABEL MARIA",NP,--,--
+65,MU,03,0597MU03_puntuaciones_provisionales_prueba_unica_07031121.pdf,01830,1,1201,"LUCAS LOPEZ, MARIA VIRGINIA",NP,--,--
