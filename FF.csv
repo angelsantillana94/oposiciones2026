@@ -95,69 +95,68 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 94,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02860,1,3715,"SANCHEZ TORRES, CRISTINA","2,4940","1,8050","4,2990"
 95,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02890,1,2448,"SARMIENTO MARTINEZ, NURIA","1,7603","2,5375","4,2978"
 96,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02780,1,0382,"SANCHEZ GALLEGO, NIEVES","1,9330","2,2550","4,1880"
-97,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01540,1,5495,"HIDALGO VARGAS, MARIA","1,9665","2,2180","4,1845"
-98,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02850,1,5008,"SANCHEZ ROMERO, ANABEL","2,7230","1,3500","4,0730"
-99,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01370,1,1408,"GONZALEZ MARTINEZ, MARTA","1,8855","2,1850","4,0705"
-100,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00860,1,6996,"DEL TORO ROMERO, ANA MARIA","1,9624","2,0150","3,9774"
-101,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02400,1,7036,"PAREDES GRANADOS, MARIA","1,6269","2,2700","3,8969"
-102,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00570,1,6960,"CAMPILLO MEROÑO, PALOMA MARIA","0,9706","2,8920","3,8626"
-103,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02050,1,6826,"MENDEZ GARCIA, NOEMI","2,1605","1,6710","3,8315"
-104,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02680,1,5422,"RUBIO ALEDO, MARIA ISABEL","1,3960","2,4237","3,8197"
-105,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02120,1,2231,"MOLINA PADILLA, PAULA","2,6310","1,1730","3,8040"
-106,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01050,1,0856,"FERNANDEZ NAVARRO, LAURA","2,9831","0,7550","3,7381"
-107,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00260,1,8586,"ALCARAZ FERRER, VERONICA","2,5523","1,1200","3,6723"
-108,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02960,1,1028,"TUDELA GARCIA, ROSARIO","2,2675","1,2187","3,4862"
-109,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02200,1,0870,"MUÑOZ REINALDOS, MARIA","2,4015","1,0600","3,4615"
-110,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01670,1,9764,"LOPEZ CANOVAS, MIRIAM","1,8245","1,5080","3,3325"
-111,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,02510,1,7357,"PIÑANA AYALA, PABLO","1,9740","1,3200","3,2940"
-112,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01960,1,4870,"MARTINEZ MORENO, VERONICA","1,7735","1,4890","3,2625"
-113,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00500,1,9588,"BRITO AVILA, JENNIFER DANIELA","0,7121","2,5200","3,2321"
-114,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01310,1,9445,"GAZQUEZ GINER, ANA MARIA","1,7658","1,3850","3,1508"
-115,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01800,1,2355,"MARCOS HUERTAS, IRENE","1,8260","1,2000","3,0260"
-116,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01620,1,1185,"JIMENEZ PIÑERO, JUANA","1,9725","0,9250","2,8975"
-117,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02920,1,8323,"TERUEL RODRIGUEZ, ALVARO","1,9810","0,8900","2,8710"
-118,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00230,1,7676,"ADAN SANCHEZ, SUSANA","1,7023","1,1090","2,8113"
-119,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01280,1,5424,"GARCIA VIDAL, ANDREA","1,7125","1,0650","2,7775"
-120,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02590,1,1654,"REGALADO PRIETO, MARTA","1,7889","0,9500","2,7389"
-121,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00740,1,0008,"CEGARRA PASTRANA, NATIVIDAD","1,6516","1,0150","2,6666"
-122,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02930,1,1562,"TOMAS DAVO, IRENE","2,6300","0,0000","2,6300"
-123,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01900,1,1043,"MARTINEZ GONZALEZ, ALEJANDRO","2,1975","0,3950","2,5925"
-124,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01770,1,7226,"MADRID PEREZ, INMACULADA","2,0800","0,3250","2,4050"
-125,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01380,1,9829,"GONZALEZ OLIVA, CRISTINA","1,2395","0,9080","2,1475"
-126,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00410,1,5290,"AZORIN TOBOSO, JOSE LUIS","0,4254","1,6320","2,0574"
-127,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00250,1,0813,"ALARCON RAGEL, NEREA","1,2920","0,7650","2,0570"
-128,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00140,1,2687,"VILLAR VILLAR, GEMMA","1,3479","0,7050","2,0529"
-129,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01440,1,7089,"GUIRAO PAREDES, SONIA","1,0045","1,0150","2,0195"
-130,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02060,1,4856,"MENDEZ VEGA, SUSANA","1,2370","0,6550","1,8920"
-131,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00980,1,4908,"ESQUINA LEGAZ, LORENA","1,5703","0,2100","1,7803"
-132,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01170,1,6287,"GARCIA GONZALEZ, PEDRO","1,2890","0,4100","1,6990"
-133,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01510,1,5447,"HERNANDEZ PEREZ, ALICIA","1,6825","0,0000","1,6825"
-134,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01270,1,9457,"GARCIA VICENTE, MARIA ROSA","1,1249","0,5150","1,6399"
-135,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02900,1,7369,"SEVILLA ALGABA, PILAR","1,4360","0,0500","1,4860"
-136,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00040,2,2255,"BERNABE MARTINEZ, MARIA JOSE","1,1676","0,1900","1,3576"
-137,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01060,1,6058,"FERNANDEZ RAMIREZ, MARIA JOSEFA","1,1900","0,0000","1,1900"
-138,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02070,1,5361,"MEROÑO ALDEGUER, NOELIA","1,0050","0,1650","1,1700"
-139,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01120,1,7335,"GARCIA CABRERO, ANGEL","0,7225","0,3700","1,0925"
-140,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00820,1,0067,"DE CASTRO MARTINEZ, TISCAR MARIA","0,8107","0,1450","0,9557"
-141,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00950,1,9925,"ESCUTIA ATIENZA, MARTA","0,4590","0,0450","0,5040"
-142,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01150,1,5243,"GARCIA GARCIA, DESIREE","0,1250","0,1600","0,2850"
-143,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02710,1,9127,"SAEZ ALONSO, MARTA",NP,--,--
-144,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02490,1,8950,"PEREZ SANCHEZ, JUAN MARTIN",NP,--,--
-145,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00890,1,8809,"DOMINGUEZ GALINDO, MARIA",NP,--,--
-146,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02420,1,8437,"PEREZ CEREZO, MARIA DEL CARMEN","0,0000",--,--
-147,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00960,1,8402,"ESPADA ROYO, ANA CARMEN",NP,--,--
-148,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02730,1,7014,"SALMERON VALVERDE, MIGUEL ANGEL",NP,--,--
-149,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01110,1,6820,"GARCIA ABAD, SALVADORA PILAR",NP,--,--
-150,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02190,1,6366,"MUÑOZ ESPALLARDO, CARMEN MARIA",NP,--,--
-151,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01130,1,5729,"GARCIA CARRASCO, PEDRO",NP,--,--
-152,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00630,1,5170,"CARPENTIER MAYOR, LAURA",NP,--,--
-153,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00990,1,4788,"FAJARDO ABENZA, EVA",NP,--,--
-154,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01180,1,4375,"GARCIA LOPEZ-AUGUY, MARINETTE",NP,--,--
-155,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01970,1,4129,"MARTINEZ NAVARRO, ANTONIO",NP,--,--
-156,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00540,1,3281,"CABRERA BERNABE, PAULA",NP,--,--
-157,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00080,1,3040,"URREA CAYUELA, SILVIA","0,0000",--,--
-158,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02810,1,2531,"SANCHEZ MELGAREJO, FERNANDO JAVIER",NP,--,--
-159,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01190,1,2440,"GARCIA MARTINEZ, ALICIA","0,4583",--,--
-160,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02600,1,1509,"RIVERA MELLADO, TATIANA","1,7255",--,--
-161,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00580,1,0908,"CAMPOS SOTO, LOURDES",NP,--,--
-162,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01830,1,0252,"MARTIN LUYER, MARINA",NP,--,--
+97,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02850,1,5008,"SANCHEZ ROMERO, ANABEL","2,7230","1,3500","4,0730"
+98,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01370,1,1408,"GONZALEZ MARTINEZ, MARTA","1,8855","2,1850","4,0705"
+99,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00860,1,6996,"DEL TORO ROMERO, ANA MARIA","1,9624","2,0150","3,9774"
+100,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02400,1,7036,"PAREDES GRANADOS, MARIA","1,6269","2,2700","3,8969"
+101,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00570,1,6960,"CAMPILLO MEROÑO, PALOMA MARIA","0,9706","2,8920","3,8626"
+102,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02050,1,6826,"MENDEZ GARCIA, NOEMI","2,1605","1,6710","3,8315"
+103,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02680,1,5422,"RUBIO ALEDO, MARIA ISABEL","1,3960","2,4237","3,8197"
+104,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02120,1,2231,"MOLINA PADILLA, PAULA","2,6310","1,1730","3,8040"
+105,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01050,1,0856,"FERNANDEZ NAVARRO, LAURA","2,9831","0,7550","3,7381"
+106,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00260,1,8586,"ALCARAZ FERRER, VERONICA","2,5523","1,1200","3,6723"
+107,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02960,1,1028,"TUDELA GARCIA, ROSARIO","2,2675","1,2187","3,4862"
+108,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02200,1,0870,"MUÑOZ REINALDOS, MARIA","2,4015","1,0600","3,4615"
+109,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01670,1,9764,"LOPEZ CANOVAS, MIRIAM","1,8245","1,5080","3,3325"
+110,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,02510,1,7357,"PIÑANA AYALA, PABLO","1,9740","1,3200","3,2940"
+111,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01960,1,4870,"MARTINEZ MORENO, VERONICA","1,7735","1,4890","3,2625"
+112,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00500,1,9588,"BRITO AVILA, JENNIFER DANIELA","0,7121","2,5200","3,2321"
+113,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01310,1,9445,"GAZQUEZ GINER, ANA MARIA","1,7658","1,3850","3,1508"
+114,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01800,1,2355,"MARCOS HUERTAS, IRENE","1,8260","1,2000","3,0260"
+115,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01620,1,1185,"JIMENEZ PIÑERO, JUANA","1,9725","0,9250","2,8975"
+116,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02920,1,8323,"TERUEL RODRIGUEZ, ALVARO","1,9810","0,8900","2,8710"
+117,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00230,1,7676,"ADAN SANCHEZ, SUSANA","1,7023","1,1090","2,8113"
+118,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01280,1,5424,"GARCIA VIDAL, ANDREA","1,7125","1,0650","2,7775"
+119,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02590,1,1654,"REGALADO PRIETO, MARTA","1,7889","0,9500","2,7389"
+120,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00740,1,0008,"CEGARRA PASTRANA, NATIVIDAD","1,6516","1,0150","2,6666"
+121,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02930,1,1562,"TOMAS DAVO, IRENE","2,6300","0,0000","2,6300"
+122,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01900,1,1043,"MARTINEZ GONZALEZ, ALEJANDRO","2,1975","0,3950","2,5925"
+123,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01770,1,7226,"MADRID PEREZ, INMACULADA","2,0800","0,3250","2,4050"
+124,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01380,1,9829,"GONZALEZ OLIVA, CRISTINA","1,2395","0,9080","2,1475"
+125,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00410,1,5290,"AZORIN TOBOSO, JOSE LUIS","0,4254","1,6320","2,0574"
+126,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00250,1,0813,"ALARCON RAGEL, NEREA","1,2920","0,7650","2,0570"
+127,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00140,1,2687,"VILLAR VILLAR, GEMMA","1,3479","0,7050","2,0529"
+128,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01440,1,7089,"GUIRAO PAREDES, SONIA","1,0045","1,0150","2,0195"
+129,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02060,1,4856,"MENDEZ VEGA, SUSANA","1,2370","0,6550","1,8920"
+130,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00980,1,4908,"ESQUINA LEGAZ, LORENA","1,5703","0,2100","1,7803"
+131,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01170,1,6287,"GARCIA GONZALEZ, PEDRO","1,2890","0,4100","1,6990"
+132,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01510,1,5447,"HERNANDEZ PEREZ, ALICIA","1,6825","0,0000","1,6825"
+133,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01270,1,9457,"GARCIA VICENTE, MARIA ROSA","1,1249","0,5150","1,6399"
+134,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02900,1,7369,"SEVILLA ALGABA, PILAR","1,4360","0,0500","1,4860"
+135,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00040,2,2255,"BERNABE MARTINEZ, MARIA JOSE","1,1676","0,1900","1,3576"
+136,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01060,1,6058,"FERNANDEZ RAMIREZ, MARIA JOSEFA","1,1900","0,0000","1,1900"
+137,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,02070,1,5361,"MEROÑO ALDEGUER, NOELIA","1,0050","0,1650","1,1700"
+138,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01120,1,7335,"GARCIA CABRERO, ANGEL","0,7225","0,3700","1,0925"
+139,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00820,1,0067,"DE CASTRO MARTINEZ, TISCAR MARIA","0,8107","0,1450","0,9557"
+140,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00950,1,9925,"ESCUTIA ATIENZA, MARTA","0,4590","0,0450","0,5040"
+141,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01150,1,5243,"GARCIA GARCIA, DESIREE","0,1250","0,1600","0,2850"
+142,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02710,1,9127,"SAEZ ALONSO, MARTA",NP,--,--
+143,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02490,1,8950,"PEREZ SANCHEZ, JUAN MARTIN",NP,--,--
+144,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00890,1,8809,"DOMINGUEZ GALINDO, MARIA",NP,--,--
+145,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02420,1,8437,"PEREZ CEREZO, MARIA DEL CARMEN","0,0000",--,--
+146,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00960,1,8402,"ESPADA ROYO, ANA CARMEN",NP,--,--
+147,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02730,1,7014,"SALMERON VALVERDE, MIGUEL ANGEL",NP,--,--
+148,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01110,1,6820,"GARCIA ABAD, SALVADORA PILAR",NP,--,--
+149,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02190,1,6366,"MUÑOZ ESPALLARDO, CARMEN MARIA",NP,--,--
+150,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01130,1,5729,"GARCIA CARRASCO, PEDRO",NP,--,--
+151,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00630,1,5170,"CARPENTIER MAYOR, LAURA",NP,--,--
+152,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00990,1,4788,"FAJARDO ABENZA, EVA",NP,--,--
+153,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01180,1,4375,"GARCIA LOPEZ-AUGUY, MARINETTE",NP,--,--
+154,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01970,1,4129,"MARTINEZ NAVARRO, ANTONIO",NP,--,--
+155,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00540,1,3281,"CABRERA BERNABE, PAULA",NP,--,--
+156,FF,01,0597FF01_puntuaciones_provisionales_prueba_unica_07021233.pdf,00080,1,3040,"URREA CAYUELA, SILVIA","0,0000",--,--
+157,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02810,1,2531,"SANCHEZ MELGAREJO, FERNANDO JAVIER",NP,--,--
+158,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,01190,1,2440,"GARCIA MARTINEZ, ALICIA","0,4583",--,--
+159,FF,04,0597FF04_puntuaciones_provisionales_prueba_unica_07021233.pdf,02600,1,1509,"RIVERA MELLADO, TATIANA","1,7255",--,--
+160,FF,02,0597FF02_puntuaciones_provisionales_prueba_unica_07021233.pdf,00580,1,0908,"CAMPOS SOTO, LOURDES",NP,--,--
+161,FF,03,0597FF03_puntuaciones_provisionales_prueba_unica_07021233.pdf,01830,1,0252,"MARTIN LUYER, MARINA",NP,--,--
