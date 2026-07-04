@@ -127,37 +127,36 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 126,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,4908,"ESQUINA LEGAZ, LORENA 00980 1 1,5703 0,2100 -",,,
 127,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,4856,"MENDEZ VEGA, SUSANA 02060 1 1,2370 0,6550 -",,,
 128,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00990,1,4788,"FAJARDO ABENZA, EVA",NP,--,--
-129,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,4547,"ARTECHE PELLICER, BELEN 00360 1 2,5988 1,1800 -",,,
-130,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01180,1,4375,"GARCIA LOPEZ-AUGUY, MARINETTE",NP,--,--
-131,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01970,1,4129,"MARTINEZ NAVARRO, ANTONIO",NP,--,--
-132,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,4051,"MORA GARCIA, ANTONIO EUGENIO 00060 2 0,9672 1,1150 -",,,
-133,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,3758,"RODRIGUEZ CASADO, NEREA 02620 1 1,7785 0,9950 -",,,
-134,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,3750,"SANCHEZ PEREZ, MARIA VICTORIA 02840 1 1,1742 0,0000 -",,,
-135,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,3655,"IZQUIERDO LEON, MANUEL EMILIO 01610 1 1,2010 0,4200 -",,,
-136,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,3546,"IBAÑEZ ORTIZ, ALVARO 01560 1 1,4275 0,0000 -",,,
-137,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,3422,"CARCEL TECLES, JESSICA 00610 1 1,9092 0,3100 -",,,
-138,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00540,1,3281,"CABRERA BERNABE, PAULA",NP,--,--
-139,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00080,1,3040,"URREA CAYUELA, SILVIA","0,0000",--,--
-140,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,2687,"VILLAR VILLAR, GEMMA 00140 1 1,3479 0,7050 -",,,
-141,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02810,1,2531,"SANCHEZ MELGAREJO, FERNANDO JAVIER",NP,--,--
-142,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01190,1,2440,"GARCIA MARTINEZ, ALICIA","0,4583",--,--
-143,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,2355,"MARCOS HUERTAS, IRENE 01800 1 1,8260 1,2000 -",,,
-144,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,2255,"BERNABE MARTINEZ, MARIA JOSE 00040 2 1,1676 0,1900 -",,,
-145,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,2231,"MOLINA PADILLA, PAULA 02120 1 2,6310 1,1730 -",,,
-146,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01450,1,2224,"HAJNI BOULAHIA, MARIA",NP,--,--
-147,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,01740,1,1844,"LOPEZ VICTORIA, LUCIA",NP,--,--
-148,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1654,"REGALADO PRIETO, MARTA 02590 1 1,7889 0,9500 -",,,
-149,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1562,"TOMAS DAVO, IRENE 02930 1 2,6300 0,0000 -",,,
-150,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02600,1,1509,"RIVERA MELLADO, TATIANA","1,7255",--,--
-151,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,1185,"JIMENEZ PIÑERO, JUANA 01620 1 1,9725 0,9250 -",,,
-152,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,1043,"MARTINEZ GONZALEZ, ALEJANDRO 01900 1 2,1975 0,3950 -",,,
-153,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1028,"TUDELA GARCIA, ROSARIO 02960 1 2,2675 1,2187 -",,,
-154,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00580,1,0908,"CAMPOS SOTO, LOURDES",NP,--,--
-155,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,0870,"MUÑOZ REINALDOS, MARIA 02200 1 2,4015 1,0600 -",,,
-156,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0856,"FERNANDEZ NAVARRO, LAURA 01050 1 2,9831 0,7550 -",,,
-157,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0813,"ALARCON RAGEL, NEREA 00250 1 1,2920 0,7650 -",,,
-158,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0547,"VIGIL MAROTO, VIRGINIA 00030 2 0,0000 0,0000 -",,,
-159,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0544,"VALERO ESTEBAN, MARIA ANGELES 00090 1 2,4155 1,1500 -",,,
-160,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01830,1,0252,"MARTIN LUYER, MARINA",NP,--,--
-161,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0067,"DE CASTRO MARTINEZ, TISCAR MARIA 00820 1 0,8107 0,1450 -",,,
-162,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0008,"CEGARRA PASTRANA, NATIVIDAD 00740 1 1,6516 1,0150 -",,,
+129,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01180,1,4375,"GARCIA LOPEZ-AUGUY, MARINETTE",NP,--,--
+130,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01970,1,4129,"MARTINEZ NAVARRO, ANTONIO",NP,--,--
+131,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,4051,"MORA GARCIA, ANTONIO EUGENIO 00060 2 0,9672 1,1150 -",,,
+132,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,3758,"RODRIGUEZ CASADO, NEREA 02620 1 1,7785 0,9950 -",,,
+133,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,3750,"SANCHEZ PEREZ, MARIA VICTORIA 02840 1 1,1742 0,0000 -",,,
+134,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,3655,"IZQUIERDO LEON, MANUEL EMILIO 01610 1 1,2010 0,4200 -",,,
+135,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,3546,"IBAÑEZ ORTIZ, ALVARO 01560 1 1,4275 0,0000 -",,,
+136,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,3422,"CARCEL TECLES, JESSICA 00610 1 1,9092 0,3100 -",,,
+137,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00540,1,3281,"CABRERA BERNABE, PAULA",NP,--,--
+138,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00080,1,3040,"URREA CAYUELA, SILVIA","0,0000",--,--
+139,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,2687,"VILLAR VILLAR, GEMMA 00140 1 1,3479 0,7050 -",,,
+140,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02810,1,2531,"SANCHEZ MELGAREJO, FERNANDO JAVIER",NP,--,--
+141,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01190,1,2440,"GARCIA MARTINEZ, ALICIA","0,4583",--,--
+142,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,2355,"MARCOS HUERTAS, IRENE 01800 1 1,8260 1,2000 -",,,
+143,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,2255,"BERNABE MARTINEZ, MARIA JOSE 00040 2 1,1676 0,1900 -",,,
+144,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,2231,"MOLINA PADILLA, PAULA 02120 1 2,6310 1,1730 -",,,
+145,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01450,1,2224,"HAJNI BOULAHIA, MARIA",NP,--,--
+146,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,01740,1,1844,"LOPEZ VICTORIA, LUCIA",NP,--,--
+147,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1654,"REGALADO PRIETO, MARTA 02590 1 1,7889 0,9500 -",,,
+148,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1562,"TOMAS DAVO, IRENE 02930 1 2,6300 0,0000 -",,,
+149,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02600,1,1509,"RIVERA MELLADO, TATIANA","1,7255",--,--
+150,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,1185,"JIMENEZ PIÑERO, JUANA 01620 1 1,9725 0,9250 -",,,
+151,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,,,1043,"MARTINEZ GONZALEZ, ALEJANDRO 01900 1 2,1975 0,3950 -",,,
+152,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,1028,"TUDELA GARCIA, ROSARIO 02960 1 2,2675 1,2187 -",,,
+153,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00580,1,0908,"CAMPOS SOTO, LOURDES",NP,--,--
+154,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,,,0870,"MUÑOZ REINALDOS, MARIA 02200 1 2,4015 1,0600 -",,,
+155,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0856,"FERNANDEZ NAVARRO, LAURA 01050 1 2,9831 0,7550 -",,,
+156,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0813,"ALARCON RAGEL, NEREA 00250 1 1,2920 0,7650 -",,,
+157,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0547,"VIGIL MAROTO, VIRGINIA 00030 2 0,0000 0,0000 -",,,
+158,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,,,0544,"VALERO ESTEBAN, MARIA ANGELES 00090 1 2,4155 1,1500 -",,,
+159,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01830,1,0252,"MARTIN LUYER, MARINA",NP,--,--
+160,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0067,"DE CASTRO MARTINEZ, TISCAR MARIA 00820 1 0,8107 0,1450 -",,,
+161,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,,,0008,"CEGARRA PASTRANA, NATIVIDAD 00740 1 1,6516 1,0150 -",,,
