@@ -1,4 +1,4 @@
-position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_b,score_total,score_second,score_final
+Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota Final
 1,MU,01,0597MU01_puntuaciones_definitivas_superado_prueba_unica_07061247.pdf,00120,1,5627,"VELASCO SANCHEZ, SANDRA","4,2730","5,0000","9,2730",,
 2,MU,01,0597MU01_puntuaciones_definitivas_superado_prueba_unica_07061247.pdf,00160,1,7742,"VILLAGORDO GUILLEN, RAQUEL","4,7360","3,7000","8,4360",,
 3,MU,04,0597MU04_puntuaciones_definitivas_superado_prueba_unica_07061228.pdf,02230,1,0614,"MAYOR DE HARO, LIDIA","3,8078","4,5600","8,3678",,

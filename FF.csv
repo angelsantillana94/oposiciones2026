@@ -1,4 +1,4 @@
-position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_b,score_total,score_second,score_final
+Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota Final
 1,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02790,1,3773,"SANCHEZ LIZARAN, VICTOR","3,9160","4,4300","8,3460",,
 2,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01530,1,1335,"HERRERO ATIENZAR, MARTA","3,6405","4,4120","8,0525","6,5820","7,3172"
 3,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00680,1,3971,"CARRILLO ROMERA, CRISTINA","3,5416","4,4100","7,9516","9,6500","8,8008"
@@ -39,9 +39,9 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 38,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01330,1,7863,"GOMEZ CARCEDO, MARINA","2,0599","3,6950","5,7549",,
 39,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00150,1,7785,"VIVANCOS MOREAU, CRISTINA","2,9888","2,7570","5,7458","7,9180","6,8319"
 40,FF,01,0597FF01_puntuaciones_definitivas_superado_prueba_unica_07031629.pdf,00560,1,9192,"CAMARA VALDES-ALBISTUR, CLAUDIA","2,4738","3,2670","5,7408",,
-41,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00670,1,0629,"CARRILLO LOPEZ, PAULA","3,2366","2,3850","5,6216","4,7600","5,1908"
+41,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00670,1,0629,"CARRILLO LOPEZ, PAULA","3,2366","2,3850","5,6216","4,7600",
 42,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01020,1,9532,"FERNANDEZ ARENAS, PAULA","2,0158","3,6000","5,6158",,
-43,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02340,1,3973,"OTON PUERTA, ROCIO","1,7565","3,7850","5,5415","4,6260","5,0838"
+43,FF,04,0597FF04_puntuaciones_definitivas_superado_prueba_unica_07031750.pdf,02340,1,3973,"OTON PUERTA, ROCIO","1,7565","3,7850","5,5415","4,6260",
 44,FF,03,0597FF03_puntuaciones_definitivas_superado_prueba_unica_07031727.pdf,01710,1,1702,"LOPEZ LOPEZ, ANTONIA","2,7095","2,8130","5,5225",,
 45,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,01300,1,8260,"GARRE JAEN, ELENA","2,9391","2,4050","5,3441",,
 46,FF,02,0597FF02_puntuaciones_definitivas_superado_prueba_unica_07031633.pdf,00730,1,3149,"CAYUELA LOZANO, NEREA","3,2416","2,0700","5,3116","9,6400","7,4758"

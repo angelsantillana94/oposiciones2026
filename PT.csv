@@ -1,4 +1,4 @@
-position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_b,score_total,score_second,score_final
+Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota Final
 1,PT,09,0597PT09_puntuaciones_definitivas_superado_prueba_unica_07061302.pdf,06120,1,0479,"GAZQUEZ MONTERO, CAROLINA","4,7600","4,8550","9,6150",,
 2,PT,02,0597PT02_puntuaciones_definitivas_superado_prueba_unica_07061308.pdf,01020,1,5256,"ZAPATA GONZALEZ, MARIA ISABEL","4,6050","5,0000","9,6050",,
 3,PT,03,0597PT03_puntuaciones_definitivas_superado_prueba_unica_07061317.pdf,01140,1,3451,"ABRIL ELVIRA, LUCIA","4,5850","4,9937","9,5787",,

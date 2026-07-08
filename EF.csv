@@ -1,4 +1,4 @@
-position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_b,score_total,score_second,score_final
+Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota Final
 1,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07680,1,0381,"MOLINA CAÑETE, SERGIO","5,0000","5,0000","10,0000",,
 2,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06040,1,5050,"LOPEZ HERRERO, FRANCISCO","5,0000","4,8100","9,8100",,
 3,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07030,1,6913,"MARTINEZ GARCIA, JAIME","5,0000","4,5050","9,5050","10,0000","9,7525"
@@ -195,7 +195,7 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 194,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11700,1,9472,"TUDELA URREA, ANTONIO TOMAS","3,4000","2,8700","6,2700",,
 195,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03600,1,4817,"GALLEGO LAGLERA, JULIA","2,9100","3,3600","6,2700",,
 196,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,04670,1,9974,"GONZALEZ SAEZ, JOSE MIGUEL","2,3050","3,9550","6,2600","8,1750","7,2175"
-197,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04070,1,9612,"GARCIA QUIJADA, DIEGO JOSE","1,8050","4,4450","6,2500","2,1120","4,181"
+197,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04070,1,9612,"GARCIA QUIJADA, DIEGO JOSE","1,8050","4,4450","6,2500","2,1120",
 198,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05230,1,3498,"HOCES GARCIA, PAOLA","4,5500","1,6900","6,2400",,
 199,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05350,1,0611,"IBARRA UBEDA, MARINA","4,1050","2,1350","6,2400",,
 200,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07070,1,4402,"MARTINEZ GARCIA, MARIA","2,5600","3,6300","6,1900","5,5500","5,87"
@@ -224,7 +224,7 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 223,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01730,1,2590,"BURRUECO LEON, CARMEN","2,0712","3,8656","5,9368",,
 224,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11300,1,1996,"SERRANO JIMENEZ, JOSE ANTONIO","3,5950","2,3350","5,9300","9,0810","7,5055"
 225,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01840,1,5045,"CAMPILLO MESEGUER, OLAYO","1,7375","4,1893","5,9268",,
-226,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02260,1,5941,"CASTILLO SANCHEZ, JORGE","2,9833","2,9350","5,9183","4,2030","5,0606"
+226,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02260,1,5941,"CASTILLO SANCHEZ, JORGE","2,9833","2,9350","5,9183","4,2030",
 227,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02690,1,8547,"CUEVAS BELTRAN, MARTA","2,0550","3,8600","5,9150",,
 228,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,02110,1,6251,"CARRETERO FERNANDEZ, PABLO","1,9750","3,9312","5,9062",,
 229,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07450,1,0955,"MATURANA MULERO, ALBA","3,3600","2,5400","5,9000",,
@@ -259,7 +259,7 @@ position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_
 258,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00550,1,3333,"ZAPATA MARTINEZ, JOSE ALBERTO","2,7666","2,7916","5,5582",,
 259,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02270,1,4600,"CASTRO GARCIA, ANGEL","1,7170","3,8410","5,5580","8,7632","7,1606"
 260,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05510,1,2661,"JIMENEZ MARCOS, MIGUEL ANGEL","1,7800","3,7650","5,5450","6,5790","6,062"
-261,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01410,1,3437,"BASTIDA MIRAS, MARIA DE LA CRUZ","2,6000","2,9425","5,5425","3,8360","4,6892"
+261,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01410,1,3437,"BASTIDA MIRAS, MARIA DE LA CRUZ","2,6000","2,9425","5,5425","3,8360",
 262,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09470,1,3729,"PLAZA LARROSA, ALEJANDRO","2,1701","3,3663","5,5364","8,1700","6,8532"
 263,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,09090,1,7345,"PEREZ ABELLAN, TOMAS","1,8500","3,6800","5,5300",,
 264,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03570,1,9861,"GALLEGO CAYUELAS, ALVARO","3,6600","1,8380","5,4980",,

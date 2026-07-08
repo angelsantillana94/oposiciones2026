@@ -1,4 +1,4 @@
-position,specialty,tribunal,source,order,access,candidate_id,name,score_a,score_b,score_total,score_second,score_final
+Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota Final
 1,,,0597PRI16_puntuaciones_definitivas_superado_prueba_unica_07061220.pdf,12200,1,7111,"HERNANDEZ VEGA, MARIA","4,1850","4,7150","8,9000",,
 2,,,0597PRI18_puntuaciones_definitivas_superado_prueba_unica_07061321.pdf,13690,1,0117,"LOPEZ CORREAS, LAURA","4,7330","4,1160","8,8490",,
 3,,,0597PRI04_puntuaciones_definitivas_superado_prueba_unica_07061302.pdf,01780,1,5408,"ABRIL LOPEZ, LETICIA","4,2460","4,5355","8,7815",,
