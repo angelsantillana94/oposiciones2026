@@ -2,1493 +2,1114 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Resultados - FF</title>
-  <style>body{font-family:Arial,Helvetica,sans-serif;margin:20px;}.table-container{overflow-x:auto;max-width:100%;}table{border-collapse:collapse;width:100%;min-width:900px;}th,td{border:1px solid #ccc;padding:8px;text-align:left;white-space:nowrap;}th{background:#f2f2f2;cursor:pointer;position:sticky;top:0;z-index:1;}tr:nth-child(even){background:#fafafa;}#search{margin-bottom:12px;padding:8px;width:100%;max-width:480px;border:1px solid #ccc;border-radius:4px;}@media (max-width: 900px){body{margin:10px;}th,td{padding:6px;}#search{max-width:100%;}table{min-width:720px;}}</style>
+  <style>:root{color-scheme:light;--primary:#185a8d;--primary-dark:#10466f;--border:#d8e0e7;--muted:#5d6b78;--surface:#fff;--background:#f4f7f9;}*{box-sizing:border-box;}body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:var(--background);color:#17212b;}.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 max(16px,calc((100% - 1400px)/2));}.back-link{display:inline-flex;align-items:center;min-height:64px;color:#2563eb;font-size:1.05rem;font-weight:750;text-decoration:none;}.back-link:hover{text-decoration:underline;}.back-link:focus-visible{outline:3px solid #b9dcf5;outline-offset:4px;border-radius:4px;}main{width:min(100% - 32px,1400px);margin:0 auto;padding:32px 0 48px;}.official-notice{display:flex;gap:12px;align-items:flex-start;margin:0 0 24px;padding:14px 16px;background:#fff7df;border:1px solid #e7c76d;border-left:5px solid #c78a00;border-radius:10px;color:#55420d;line-height:1.45;}.official-notice-icon{flex:none;font-size:1.2rem;line-height:1.35;}.official-notice p{margin:0;}.official-notice strong{color:#3f3108;}.official-notice a{color:#174f9c;font-weight:750;}.official-notice a:hover{text-decoration-thickness:2px;}h1{font-size:clamp(1.45rem,3vw,2rem);line-height:1.2;margin:0 0 8px;}.intro{color:var(--muted);margin:0 0 20px;}.controls{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:12px;}.control{display:grid;gap:6px;font-size:.875rem;font-weight:650;color:#354452;}#search,#mobile-sort{font:inherit;background:#fff;border:1px solid #aebbc6;border-radius:8px;padding:10px 12px;min-height:44px;}#search{width:min(100%,480px);}#search:focus,#mobile-sort:focus{outline:3px solid #b9dcf5;border-color:var(--primary);}.result-count{margin:0 0 10px;color:var(--muted);font-size:.9rem;}.mobile-sort-control{display:none;}.table-container{overflow-x:auto;max-width:100%;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 3px 14px rgba(23,33,43,.06);}table{border-collapse:separate;border-spacing:0;width:100%;min-width:940px;}th,td{border-bottom:1px solid var(--border);padding:12px 14px;text-align:left;}th{background:#eaf2f8;color:#173d59;cursor:pointer;position:sticky;top:0;z-index:1;white-space:normal;font-size:.9rem;}th:hover{background:#dcebf5;}th::after{content:" ↕";color:#69849a;}th[data-order="asc"]::after{content:" ↑";color:var(--primary-dark);}th[data-order="desc"]::after{content:" ↓";color:var(--primary-dark);}td{white-space:nowrap;font-variant-numeric:tabular-nums;}td.field-name{white-space:normal;min-width:220px;font-weight:600;}td.field-score_final{font-weight:750;color:var(--primary-dark);}tbody tr:nth-child(even){background:#f8fafb;}tbody tr:hover{background:#eef6fb;}tbody tr:last-child td{border-bottom:0;}@media (max-width:760px){main{width:min(100% - 20px,700px);padding:20px 0 32px;}.intro{font-size:.925rem;margin-bottom:16px;}.controls{display:grid;grid-template-columns:1fr;margin-bottom:10px;}#search,#mobile-sort{width:100%;}.mobile-sort-control{display:grid;}.table-container{overflow:visible;background:transparent;border:0;border-radius:0;box-shadow:none;}table{display:block;min-width:0;}thead{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}tbody{display:grid;gap:12px;}tbody tr,tbody tr:nth-child(even){display:grid;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 2px 9px rgba(23,33,43,.06);overflow:hidden;}tbody tr:hover{background:var(--surface);}td{display:grid;grid-template-columns:minmax(116px,40%) 1fr;gap:10px;align-items:center;white-space:normal;padding:9px 12px;border-bottom:1px solid #edf1f4;text-align:right;overflow-wrap:anywhere;}td::before{content:attr(data-label);color:var(--muted);font-size:.78rem;font-weight:700;text-align:left;}td.field-position{background:#eaf2f8;color:var(--primary-dark);font-size:1.05rem;font-weight:800;}td.field-name{grid-template-columns:1fr;text-align:left;font-size:1rem;padding-top:12px;padding-bottom:12px;}td.field-name::before{margin-bottom:-5px;}tbody tr td:last-child{border-bottom:0;}}</style>
 </head>
 <body>
+  <nav class="topbar" aria-label="Navegación"><a class="back-link" href="index.html">‹&nbsp;Índice</a></nav>
+  <main>
+  <aside class="official-notice" role="note" aria-label="Aviso sobre los datos">
+    <span class="official-notice-icon" aria-hidden="true">⚠️</span>
+    <p><strong>Información no oficial.</strong> Los datos mostrados son orientativos. Consulta siempre los datos oficiales en la <a href="https://servicios.educarm.es/admin/index2.php?aplicacion=PUBLICACIONES_TRIBUNALES&amp;module=publicacionesTribunales&amp;anyo=2026&amp;convocatoria=OPOPRI26" target="_blank" rel="noopener noreferrer">página oficial de la Consejería de Educación</a>.</p>
+  </aside>
   <h1>Resultados - FF</h1>
-  <p>Haz clic en los encabezados para ordenar por columna. Usa el campo para filtrar por texto.</p>
-  <input id="search" type="search" placeholder="Buscar nombre, tribunal, nota..." oninput="filterTable()">
-  <p>Tabla generada</p>
+  <p class="intro">Busca una persona o un tribunal. En pantallas grandes también puedes pulsar una cabecera para ordenar.</p>
+  <div class="controls">
+    <label class="control" for="search">Buscar<input id="search" type="search" placeholder="Nombre, tribunal, nota..." oninput="filterTable()"></label>
+    <label class="control mobile-sort-control" for="mobile-sort">Ordenar por<select id="mobile-sort" onchange="sortFromSelect()">
+      <option value="">Orden inicial</option>
+      <option value="0|asc">Posición (menor a mayor)</option>
+      <option value="1|asc">Nombre/Apellidos (A–Z)</option>
+      <option value="2|asc">Tribunal (A–Z)</option>
+      <option value="3|desc">1ª Prueba (A) (mayor a menor)</option>
+      <option value="4|desc">1ª Prueba (B) (mayor a menor)</option>
+      <option value="5|desc">1ª Prueba (Total) (mayor a menor)</option>
+      <option value="6|desc">2ª Prueba (mayor a menor)</option>
+      <option value="7|desc">Nota final (mayor a menor)</option>
+    </select></label>
+  </div>
+  <p id="result-count" class="result-count" aria-live="polite">102 resultados</p>
   <div class="table-container">
   <table id="data-table">
     <thead>
       <tr>
         <th onclick="sortTable(0)" data-type="number">Posición</th>
-        <th onclick="sortTable(1)" data-type="string">Especialidad</th>
+        <th onclick="sortTable(1)" data-type="string">Nombre/Apellidos</th>
         <th onclick="sortTable(2)" data-type="string">Tribunal</th>
-        <th onclick="sortTable(3)" data-type="number">Orden</th>
-        <th onclick="sortTable(4)" data-type="number">Acceso</th>
-        <th onclick="sortTable(5)" data-type="number">ID</th>
-        <th onclick="sortTable(6)" data-type="string">Nombre / Apellidos</th>
-        <th onclick="sortTable(7)" data-type="number">Parte A (1ª prueba)</th>
-        <th onclick="sortTable(8)" data-type="number">Parte B (1ª prueba)</th>
-        <th onclick="sortTable(9)" data-type="number">Total (1ª prueba)</th>
-        <th onclick="sortTable(10)" data-type="number">2ª prueba</th>
-        <th onclick="sortTable(11)" data-type="number">Nota Final</th>
+        <th onclick="sortTable(3)" data-type="number">1ª Prueba (A)</th>
+        <th onclick="sortTable(4)" data-type="number">1ª Prueba (B)</th>
+        <th onclick="sortTable(5)" data-type="number">1ª Prueba (Total)</th>
+        <th onclick="sortTable(6)" data-type="number">2ª Prueba</th>
+        <th onclick="sortTable(7)" data-type="number">Nota final</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01470</td>
-        <td>1</td>
-        <td>0404</td>
-        <td>HATO ALVARO, FRANCISCO JAVIER</td>
-        <td>3,8210</td>
-        <td>4,8860</td>
-        <td>8,7070</td>
-        <td>9,8180</td>
-        <td>9,2625</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00350</td>
-        <td>1</td>
-        <td>5128</td>
-        <td>AROCA MONTESINOS, NEREA</td>
-        <td>3,7688</td>
-        <td>4,0900</td>
-        <td>7,8588</td>
-        <td>10,0000</td>
-        <td>8,9294</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00680</td>
-        <td>1</td>
-        <td>3971</td>
-        <td>CARRILLO ROMERA, CRISTINA</td>
-        <td>3,5416</td>
-        <td>4,4100</td>
-        <td>7,9516</td>
-        <td>9,6500</td>
-        <td>8,8008</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00300</td>
-        <td>1</td>
-        <td>5908</td>
-        <td>ANDUJAR ALCAZAR, PILAR DE LOS ANGELES</td>
-        <td>3,3957</td>
-        <td>4,2850</td>
-        <td>7,6807</td>
-        <td>9,9000</td>
-        <td>8,7904</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00120</td>
-        <td>1</td>
-        <td>4709</td>
-        <td>VEGA ORTUÑO, ISABEL</td>
-        <td>3,6513</td>
-        <td>4,0550</td>
-        <td>7,7063</td>
-        <td>9,6740</td>
-        <td>8,6902</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00920</td>
-        <td>1</td>
-        <td>2173</td>
-        <td>DURAN RICARTE, SHEILA</td>
-        <td>3,3901</td>
-        <td>4,1900</td>
-        <td>7,5801</td>
-        <td>9,8000</td>
-        <td>8,69</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02500</td>
-        <td>1</td>
-        <td>2921</td>
-        <td>PERIS SOLANO, MARTA</td>
-        <td>4,2780</td>
-        <td>3,0600</td>
-        <td>7,3380</td>
-        <td>10,0000</td>
-        <td>8,669</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00590</td>
-        <td>1</td>
-        <td>9731</td>
-        <td>CANO GARCIA, ANA</td>
-        <td>3,7183</td>
-        <td>3,3250</td>
-        <td>7,0433</td>
-        <td>9,7800</td>
-        <td>8,4116</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02550</td>
-        <td>1</td>
-        <td>9826</td>
-        <td>PORRAS MONTANE, PABLO</td>
-        <td>3,3203</td>
-        <td>4,3150</td>
-        <td>7,6353</td>
-        <td>9,1400</td>
-        <td>8,3876</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01590</td>
-        <td>1</td>
-        <td>4823</td>
-        <td>INIESTA COSTAS, ELENA</td>
-        <td>2,6920</td>
-        <td>3,9670</td>
-        <td>6,6590</td>
-        <td>10,0000</td>
-        <td>8,3295</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02370</td>
-        <td>1</td>
-        <td>1387</td>
-        <td>PARADAS NARBONA, GUADALUPE</td>
-        <td>2,8910</td>
-        <td>3,7812</td>
-        <td>6,6722</td>
-        <td>9,8900</td>
-        <td>8,2811</td>
-      </tr>
-      <tr>
-        <td>12</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00190</td>
-        <td>1</td>
-        <td>5962</td>
-        <td>ZURANO GOMEZ, LORENA</td>
-        <td>3,0258</td>
-        <td>4,3250</td>
-        <td>7,3508</td>
-        <td>9,0230</td>
-        <td>8,1869</td>
-      </tr>
-      <tr>
-        <td>13</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01720</td>
-        <td>1</td>
-        <td>3362</td>
-        <td>LOPEZ LOPEZ, JESSICA</td>
-        <td>2,7145</td>
-        <td>4,4240</td>
-        <td>7,1385</td>
-        <td>9,1760</td>
-        <td>8,1572</td>
-      </tr>
-      <tr>
-        <td>14</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01490</td>
-        <td>1</td>
-        <td>5056</td>
-        <td>HERNANDEZ CORTES, RUBEN</td>
-        <td>3,1895</td>
-        <td>4,1870</td>
-        <td>7,3765</td>
-        <td>8,6000</td>
-        <td>7,9882</td>
-      </tr>
-      <tr>
-        <td>15</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02430</td>
-        <td>1</td>
-        <td>5322</td>
-        <td>PEREZ GARCIA, ANDREA</td>
-        <td>3,0695</td>
-        <td>3,2000</td>
-        <td>6,2695</td>
-        <td>9,6000</td>
-        <td>7,9348</td>
-      </tr>
-      <tr>
-        <td>16</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00370</td>
-        <td>1</td>
-        <td>6526</td>
-        <td>ASIS BERENGUER, DIEGO</td>
-        <td>2,9264</td>
-        <td>3,0450</td>
-        <td>5,9714</td>
-        <td>9,8100</td>
-        <td>7,8907</td>
-      </tr>
-      <tr>
-        <td>17</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00200</td>
-        <td>1</td>
-        <td>5081</td>
-        <td>ABELLAN PEREZ, BELEN</td>
-        <td>3,6641</td>
-        <td>2,2600</td>
-        <td>5,9241</td>
-        <td>9,7340</td>
-        <td>7,829</td>
-      </tr>
-      <tr>
-        <td>18</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01410</td>
-        <td>1</td>
-        <td>9629</td>
-        <td>GONZALEZ ZAPATA, RAQUEL</td>
-        <td>3,8695</td>
-        <td>3,9710</td>
-        <td>7,8405</td>
-        <td>7,6700</td>
-        <td>7,7552</td>
-      </tr>
-      <tr>
-        <td>19</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00750</td>
-        <td>1</td>
-        <td>0499</td>
-        <td>CELDRAN BAUTISTA, MARIA GRACIA</td>
-        <td>2,4225</td>
-        <td>3,3350</td>
-        <td>5,7575</td>
-        <td>9,5500</td>
-        <td>7,6538</td>
-      </tr>
-      <tr>
-        <td>20</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02470</td>
-        <td>1</td>
-        <td>8092</td>
-        <td>PEREZ PALACIOS, MARIA DOLORES</td>
-        <td>2,7585</td>
-        <td>3,5650</td>
-        <td>6,3235</td>
-        <td>8,9640</td>
-        <td>7,6438</td>
-      </tr>
-      <tr>
-        <td>21</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02480</td>
-        <td>1</td>
-        <td>9590</td>
-        <td>PEREZ SANCHEZ, IRENE</td>
-        <td>2,9570</td>
-        <td>2,8062</td>
-        <td>5,7632</td>
-        <td>9,5060</td>
-        <td>7,6346</td>
-      </tr>
-      <tr>
-        <td>22</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01400</td>
-        <td>1</td>
-        <td>3380</td>
-        <td>GONZALEZ VIZCAINO, LAURA</td>
-        <td>3,9410</td>
-        <td>2,7090</td>
-        <td>6,6500</td>
-        <td>8,3480</td>
-        <td>7,499</td>
-      </tr>
-      <tr>
-        <td>23</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00660</td>
-        <td>1</td>
-        <td>9647</td>
-        <td>CARRILERO PEINADO, VICTORIA ALEJANDRA</td>
-        <td>2,5925</td>
-        <td>4,1450</td>
-        <td>6,7375</td>
-        <td>8,2300</td>
-        <td>7,4838</td>
-      </tr>
-      <tr>
-        <td>24</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00730</td>
-        <td>1</td>
-        <td>3149</td>
-        <td>CAYUELA LOZANO, NEREA</td>
-        <td>3,2416</td>
-        <td>2,0700</td>
-        <td>5,3116</td>
-        <td>9,6400</td>
-        <td>7,4758</td>
-      </tr>
-      <tr>
-        <td>25</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02380</td>
-        <td>1</td>
-        <td>3263</td>
-        <td>PAREDES DURNEY, ADRIEN</td>
-        <td>2,8595</td>
-        <td>4,0700</td>
-        <td>6,9295</td>
-        <td>7,9460</td>
-        <td>7,4378</td>
-      </tr>
-      <tr>
-        <td>26</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00800</td>
-        <td>1</td>
-        <td>6255</td>
-        <td>CONTRERAS HERNANDEZ, CARLOS</td>
-        <td>2,9958</td>
-        <td>3,5650</td>
-        <td>6,5608</td>
-        <td>8,1900</td>
-        <td>7,3754</td>
-      </tr>
-      <tr>
-        <td>27</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01650</td>
-        <td>1</td>
-        <td>9944</td>
-        <td>LARIO CAMPOS, ESTEBAN</td>
-        <td>1,9125</td>
-        <td>3,9150</td>
-        <td>5,8275</td>
-        <td>8,8640</td>
-        <td>7,3458</td>
-      </tr>
-      <tr>
-        <td>28</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01530</td>
-        <td>1</td>
-        <td>1335</td>
-        <td>HERRERO ATIENZAR, MARTA</td>
-        <td>3,6405</td>
-        <td>4,4120</td>
-        <td>8,0525</td>
-        <td>6,5820</td>
-        <td>7,3172</td>
-      </tr>
-      <tr>
-        <td>29</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02390</td>
-        <td>1</td>
-        <td>3801</td>
-        <td>PAREDES DURNEY, MARINA NOEMIE</td>
-        <td>2,6405</td>
-        <td>2,8250</td>
-        <td>5,4655</td>
-        <td>9,0320</td>
-        <td>7,2488</td>
-      </tr>
-      <tr>
-        <td>30</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02560</td>
-        <td>1</td>
-        <td>6971</td>
-        <td>PRAVIA SORIANO, CARMEN</td>
-        <td>2,7840</td>
-        <td>4,1700</td>
-        <td>6,9540</td>
-        <td>7,5060</td>
-        <td>7,23</td>
-      </tr>
-      <tr>
-        <td>31</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01430</td>
-        <td>1</td>
-        <td>0627</td>
-        <td>GUILLAMON MARIN, JUAN</td>
-        <td>3,5670</td>
-        <td>4,0150</td>
-        <td>7,5820</td>
-        <td>6,8260</td>
-        <td>7,204</td>
-      </tr>
-      <tr>
-        <td>32</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00790</td>
-        <td>1</td>
-        <td>5634</td>
-        <td>CONESA SERNA, MARIA</td>
-        <td>3,6855</td>
-        <td>2,9700</td>
-        <td>6,6555</td>
-        <td>7,7400</td>
-        <td>7,1978</td>
-      </tr>
-      <tr>
-        <td>33</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02440</td>
-        <td>1</td>
-        <td>5526</td>
-        <td>PEREZ GARCIA, GISELLA VERONICA</td>
-        <td>3,0895</td>
-        <td>2,3900</td>
-        <td>5,4795</td>
-        <td>8,2740</td>
-        <td>6,8768</td>
-      </tr>
-      <tr>
-        <td>34</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00150</td>
-        <td>1</td>
-        <td>7785</td>
-        <td>VIVANCOS MOREAU, CRISTINA</td>
-        <td>2,9888</td>
-        <td>2,7570</td>
-        <td>5,7458</td>
-        <td>7,9180</td>
-        <td>6,8319</td>
-      </tr>
-      <tr>
-        <td>35</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00940</td>
-        <td>1</td>
-        <td>5054</td>
-        <td>EL HOUARI LAHCEN, WAFAE</td>
-        <td>2,8566</td>
-        <td>3,4500</td>
-        <td>6,3066</td>
-        <td>7,0400</td>
-        <td>6,6733</td>
-      </tr>
-      <tr>
-        <td>36</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01520</td>
-        <td>1</td>
-        <td>7094</td>
-        <td>HERNANDEZ QUIJADA, ANTONIO MANUEL</td>
-        <td>3,2310</td>
-        <td>3,3650</td>
-        <td>6,5960</td>
-        <td>6,6800</td>
-        <td>6,638</td>
-      </tr>
-      <tr>
-        <td>37</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00310</td>
-        <td>1</td>
-        <td>3119</td>
-        <td>ARACIL COSTA, SARA</td>
-        <td>2,9454</td>
-        <td>3,1390</td>
-        <td>6,0844</td>
-        <td>6,8400</td>
-        <td>6,4622</td>
-      </tr>
-      <tr>
-        <td>38</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00240</td>
-        <td>1</td>
-        <td>3021</td>
-        <td>ADSUAR BROTONS, ANTONIA MARIA</td>
-        <td>3,2010</td>
-        <td>2,6070</td>
-        <td>5,8080</td>
-        <td>6,8940</td>
-        <td>6,351</td>
-      </tr>
-      <tr>
-        <td>39</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00760</td>
-        <td>1</td>
-        <td>7748</td>
-        <td>CHACON MARTIN, MARIA DOLORES</td>
-        <td>2,8057</td>
-        <td>3,7100</td>
-        <td>6,5157</td>
-        <td>6,1600</td>
-        <td>6,3378</td>
-      </tr>
-      <tr>
-        <td>40</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00640</td>
-        <td>1</td>
-        <td>3364</td>
-        <td>CARRASCO GONZALEZ, ALICIA</td>
-        <td>2,4300</td>
-        <td>3,6950</td>
-        <td>6,1250</td>
-        <td>6,4300</td>
-        <td>6,2775</td>
-      </tr>
-      <tr>
-        <td>41</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00340</td>
-        <td>1</td>
-        <td>2651</td>
-        <td>ARIAS RUBIO, ANDREA</td>
-        <td>3,1788</td>
-        <td>4,2350</td>
-        <td>7,4138</td>
-        <td>5,1270</td>
-        <td>6,2704</td>
-      </tr>
-      <tr>
-        <td>42</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00850</td>
-        <td>1</td>
-        <td>7334</td>
-        <td>DEL CAMPO ALBALADEJO, INMACULADA</td>
-        <td>1,5950</td>
-        <td>3,5100</td>
-        <td>5,1050</td>
-        <td>7,1100</td>
-        <td>6,1075</td>
-      </tr>
-      <tr>
-        <td>43</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01390</td>
-        <td>1</td>
-        <td>4827</td>
-        <td>GONZALEZ SANCHEZ, MARIA</td>
-        <td>3,5400</td>
-        <td>2,6230</td>
-        <td>6,1630</td>
-        <td>5,5760</td>
-        <td>5,8695</td>
-      </tr>
-      <tr>
-        <td>44</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02210</td>
-        <td>1</td>
-        <td>2869</td>
-        <td>MUÑOZ RUBIO, LIDIA</td>
-        <td>3,3058</td>
-        <td>2,1800</td>
-        <td>5,4858</td>
-        <td>6,2260</td>
-        <td>5,8559</td>
-      </tr>
-      <tr>
-        <td>45</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02250</td>
-        <td>1</td>
-        <td>2933</td>
-        <td>NAVARRO FERRA, ANTONIA</td>
-        <td>3,4885</td>
-        <td>2,6487</td>
-        <td>6,1372</td>
-        <td>5,5640</td>
-        <td>5,8506</td>
-      </tr>
-      <tr>
-        <td>46</td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00070</td>
-        <td>2</td>
-        <td>3029</td>
-        <td>RAMOS GARCIA, ANA MARIA</td>
-        <td>3,5175</td>
-        <td>2,4300</td>
-        <td>5,9475</td>
-        <td>5,6390</td>
-        <td>5,7932</td>
-      </tr>
-      <tr>
-        <td>47</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01570</td>
-        <td>1</td>
-        <td>3743</td>
-        <td>IMBERNON MEROÑO, CARMEN</td>
-        <td>2,6055</td>
-        <td>2,8910</td>
-        <td>5,4965</td>
-        <td>6,0460</td>
-        <td>5,7712</td>
-      </tr>
-      <tr>
-        <td>48</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01710</td>
-        <td>1</td>
-        <td>1702</td>
-        <td>LOPEZ LOPEZ, ANTONIA</td>
-        <td>2,7095</td>
-        <td>2,8130</td>
-        <td>5,5225</td>
-        <td>5,8640</td>
-        <td>5,6932</td>
-      </tr>
-      <tr>
-        <td>49</td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00620</td>
-        <td>1</td>
-        <td>5250</td>
-        <td>CARO MARTINEZ, MARIA</td>
-        <td>2,4948</td>
-        <td>2,7550</td>
-        <td>5,2498</td>
-        <td>6,0600</td>
-        <td>5,6549</td>
-      </tr>
-      <tr>
-        <td>50</td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01420</td>
-        <td>1</td>
-        <td>3375</td>
-        <td>GUERRERO CAYUELA, MARIA ISABEL</td>
-        <td>3,3300</td>
-        <td>2,6630</td>
-        <td>5,9930</td>
-        <td>5,2960</td>
-        <td>5,6445</td>
-      </tr>
-      <tr>
-        <td>51</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02410</td>
-        <td>1</td>
-        <td>8199</td>
-        <td>PEREZ BERBEL, PALMA</td>
-        <td>2,3150</td>
-        <td>2,8012</td>
-        <td>5,1162</td>
-        <td>5,3840</td>
-        <td>5,2501</td>
-      </tr>
-      <tr>
-        <td>52</td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02220</td>
-        <td>1</td>
-        <td>3355</td>
-        <td>MUÑOZ VERDU, ROCIO</td>
-        <td>2,2885</td>
-        <td>2,8450</td>
-        <td>5,1335</td>
-        <td>5,2280</td>
-        <td>5,1808</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00440</td>
-        <td>1</td>
-        <td>4524</td>
-        <td>BAÑOS MURCIA, MARIA</td>
-        <td>4,1987</td>
-        <td>4,5250</td>
-        <td>8,7237</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02010</td>
-        <td>1</td>
-        <td>5302</td>
-        <td>MARTINEZ RUIZ, MARIA DEL PILAR</td>
-        <td>3,9475</td>
-        <td>4,4010</td>
-        <td>8,3485</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02790</td>
-        <td>1</td>
-        <td>3773</td>
-        <td>SANCHEZ LIZARAN, VICTOR</td>
-        <td>3,9160</td>
-        <td>4,4300</td>
-        <td>8,3460</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01760</td>
-        <td>1</td>
-        <td>2297</td>
-        <td>LORENTE SANCHEZ, ANA</td>
-        <td>3,3945</td>
-        <td>4,5250</td>
-        <td>7,9195</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02700</td>
-        <td>1</td>
-        <td>3396</td>
-        <td>RUIZ RODRIGUEZ, ALBA</td>
-        <td>3,4875</td>
-        <td>3,9687</td>
-        <td>7,4562</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02090</td>
-        <td>1</td>
-        <td>5083</td>
-        <td>MOLINA GUILLEN, PILAR</td>
-        <td>3,3100</td>
-        <td>4,0220</td>
-        <td>7,3320</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00400</td>
-        <td>1</td>
-        <td>3933</td>
-        <td>AYMAN AYMAN, SANAA</td>
-        <td>3,5831</td>
-        <td>3,6900</td>
-        <td>7,2731</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02100</td>
-        <td>1</td>
-        <td>4790</td>
-        <td>MOLINA MARTIN DE LA FUENTE, ARACELI VICTORIA</td>
-        <td>3,7960</td>
-        <td>3,4370</td>
-        <td>7,2330</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01290</td>
-        <td>1</td>
-        <td>7091</td>
-        <td>GARCIA ZAMORA, ALBERTO</td>
-        <td>2,7483</td>
-        <td>4,3450</td>
-        <td>7,0933</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00490</td>
-        <td>1</td>
-        <td>4633</td>
-        <td>BOX GARCIA, DAVID</td>
-        <td>2,6875</td>
-        <td>4,3000</td>
-        <td>6,9875</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00550</td>
-        <td>1</td>
-        <td>0741</td>
-        <td>CAMACHO GABALDON, ADRIAN</td>
-        <td>3,4953</td>
-        <td>3,4250</td>
-        <td>6,9203</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01320</td>
-        <td>1</td>
-        <td>0608</td>
-        <td>GIL MORENO, LIDIA</td>
-        <td>2,4074</td>
-        <td>4,5100</td>
-        <td>6,9174</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00430</td>
-        <td>1</td>
-        <td>4074</td>
-        <td>BAEZA MOMPEAN, MARINA</td>
-        <td>2,9606</td>
-        <td>3,9000</td>
-        <td>6,8606</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01080</td>
-        <td>1</td>
-        <td>4873</td>
-        <td>FLORENCIANO GARCIA, BLANCA</td>
-        <td>3,6850</td>
-        <td>3,1500</td>
-        <td>6,8350</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02650</td>
-        <td>1</td>
-        <td>4122</td>
-        <td>RODRIGUEZ VERA, PALOMA</td>
-        <td>3,8280</td>
-        <td>3,0062</td>
-        <td>6,8342</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01200</td>
-        <td>1</td>
-        <td>4771</td>
-        <td>GARCIA MATAS, MARINA</td>
-        <td>3,0508</td>
-        <td>3,7350</td>
-        <td>6,7858</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02170</td>
-        <td>1</td>
-        <td>1388</td>
-        <td>MUNUERA GARCIA, ANA</td>
-        <td>3,2080</td>
-        <td>3,5300</td>
-        <td>6,7380</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01840</td>
-        <td>1</td>
-        <td>0009</td>
-        <td>MARTINEZ ALCARAZ, JOSE</td>
-        <td>3,1580</td>
-        <td>3,4210</td>
-        <td>6,5790</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00530</td>
-        <td>1</td>
-        <td>9893</td>
-        <td>CABERO MORALES, LUCIA</td>
-        <td>2,0735</td>
-        <td>4,4790</td>
-        <td>6,5525</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01160</td>
-        <td>1</td>
-        <td>3148</td>
-        <td>GARCIA GARCIA, LUCIA</td>
-        <td>2,6732</td>
-        <td>3,7400</td>
-        <td>6,4132</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02820</td>
-        <td>1</td>
-        <td>0980</td>
-        <td>SANCHEZ OTALORA, JAVIER</td>
-        <td>2,6625</td>
-        <td>3,6700</td>
-        <td>6,3325</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01950</td>
-        <td>1</td>
-        <td>0623</td>
-        <td>MARTINEZ MARTINEZ, NURIA</td>
-        <td>2,9900</td>
-        <td>3,2870</td>
-        <td>6,2770</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01030</td>
-        <td>1</td>
-        <td>3272</td>
-        <td>FERNANDEZ CANOVAS, ANA</td>
-        <td>2,6233</td>
-        <td>3,6450</td>
-        <td>6,2683</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00480</td>
-        <td>1</td>
-        <td>6730</td>
-        <td>BOUTCHICHI MERIMI, SAMIR</td>
-        <td>2,9475</td>
-        <td>3,2730</td>
-        <td>6,2205</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02110</td>
-        <td>1</td>
-        <td>2328</td>
-        <td>MOLINA MUÑOZ, MONICA</td>
-        <td>2,5240</td>
-        <td>3,5410</td>
-        <td>6,0650</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02140</td>
-        <td>1</td>
-        <td>4113</td>
-        <td>MORENO NICOLAS, ELENA</td>
-        <td>3,6080</td>
-        <td>2,4440</td>
-        <td>6,0520</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00970</td>
-        <td>1</td>
-        <td>4404</td>
-        <td>ESPINOSA GUERRERO, LAURA DEL CARMEN</td>
-        <td>3,7166</td>
-        <td>2,2900</td>
-        <td>6,0066</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02020</td>
-        <td>1</td>
-        <td>7852</td>
-        <td>MARTINEZ ZAMORA, CONSTANZA</td>
-        <td>2,6925</td>
-        <td>3,2350</td>
-        <td>5,9275</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02660</td>
-        <td>1</td>
-        <td>3125</td>
-        <td>ROMERO PALAZON, PURIFICACION</td>
-        <td>2,1165</td>
-        <td>3,7937</td>
-        <td>5,9102</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02830</td>
-        <td>1</td>
-        <td>1170</td>
-        <td>SANCHEZ PEREZ, MARIA DEL MAR</td>
-        <td>3,0145</td>
-        <td>2,8600</td>
-        <td>5,8745</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01990</td>
-        <td>1</td>
-        <td>9408</td>
-        <td>MARTINEZ ROBLES, MARIA DOLORES</td>
-        <td>3,2870</td>
-        <td>2,5780</td>
-        <td>5,8650</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00470</td>
-        <td>1</td>
-        <td>2101</td>
-        <td>BLASCO GIL, MANUEL</td>
-        <td>2,8850</td>
-        <td>2,9750</td>
-        <td>5,8600</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02610</td>
-        <td>1</td>
-        <td>4563</td>
-        <td>ROBLES VALDIVIESO, CARMEN</td>
-        <td>2,8225</td>
-        <td>3,0312</td>
-        <td>5,8537</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01330</td>
-        <td>1</td>
-        <td>7863</td>
-        <td>GOMEZ CARCEDO, MARINA</td>
-        <td>2,0599</td>
-        <td>3,6950</td>
-        <td>5,7549</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00560</td>
-        <td>1</td>
-        <td>9192</td>
-        <td>CAMARA VALDES-ALBISTUR, CLAUDIA</td>
-        <td>2,4738</td>
-        <td>3,2670</td>
-        <td>5,7408</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02670</td>
-        <td>1</td>
-        <td>5716</td>
-        <td>ROSIQUE CEREZO, BLANCA</td>
-        <td>2,2695</td>
-        <td>3,3700</td>
-        <td>5,6395</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>00670</td>
-        <td>1</td>
-        <td>0629</td>
-        <td>CARRILLO LOPEZ, PAULA</td>
-        <td>3,2366</td>
-        <td>2,3850</td>
-        <td>5,6216</td>
-        <td>4,7600</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01020</td>
-        <td>1</td>
-        <td>9532</td>
-        <td>FERNANDEZ ARENAS, PAULA</td>
-        <td>2,0158</td>
-        <td>3,6000</td>
-        <td>5,6158</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02340</td>
-        <td>1</td>
-        <td>3973</td>
-        <td>OTON PUERTA, ROCIO</td>
-        <td>1,7565</td>
-        <td>3,7850</td>
-        <td>5,5415</td>
-        <td>4,6260</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01300</td>
-        <td>1</td>
-        <td>8260</td>
-        <td>GARRE JAEN, ELENA</td>
-        <td>2,9391</td>
-        <td>2,4050</td>
-        <td>5,3441</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02870</td>
-        <td>1</td>
-        <td>7167</td>
-        <td>SANCHEZ VALERA, MARIA JESUS</td>
-        <td>3,2530</td>
-        <td>2,0562</td>
-        <td>5,3092</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01810</td>
-        <td>1</td>
-        <td>4631</td>
-        <td>MARIN GARCIA, SILVIA</td>
-        <td>2,7505</td>
-        <td>2,5500</td>
-        <td>5,3005</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01850</td>
-        <td>1</td>
-        <td>5489</td>
-        <td>MARTINEZ CAMPOY, LUCIA</td>
-        <td>2,4960</td>
-        <td>2,8000</td>
-        <td>5,2960</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>02030</td>
-        <td>1</td>
-        <td>0558</td>
-        <td>MEDINA FUENTES, HELENA</td>
-        <td>2,6990</td>
-        <td>2,5930</td>
-        <td>5,2920</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>04</td>
-        <td>02720</td>
-        <td>1</td>
-        <td>3526</td>
-        <td>SALHI DAOUDI, IKRAM</td>
-        <td>3,4620</td>
-        <td>1,8000</td>
-        <td>5,2620</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01010</td>
-        <td>1</td>
-        <td>7327</td>
-        <td>FAURA MONEDERO, MARIA MERCEDES</td>
-        <td>2,4133</td>
-        <td>2,8100</td>
-        <td>5,2233</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>03</td>
-        <td>01550</td>
-        <td>1</td>
-        <td>9644</td>
-        <td>IBAÑEZ GONZALEZ, CONSTANTINO</td>
-        <td>3,5300</td>
-        <td>1,6460</td>
-        <td>5,1760</td>
-        <td>4,5440</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00460</td>
-        <td>1</td>
-        <td>0230</td>
-        <td>BLANCO DE LA CERRA, SOFIA</td>
-        <td>2,5974</td>
-        <td>2,5300</td>
-        <td>5,1274</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>02</td>
-        <td>01340</td>
-        <td>1</td>
-        <td>0672</td>
-        <td>GOMEZ CLEMENTE, ESTEFANIA</td>
-        <td>1,3491</td>
-        <td>3,7300</td>
-        <td>5,0791</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>FF</td>
-        <td>01</td>
-        <td>00520</td>
-        <td>1</td>
-        <td>3612</td>
-        <td>BUENO SOLER, SOFIA</td>
-        <td>3,0838</td>
-        <td>1,9400</td>
-        <td>5,0238</td>
-        <td></td>
-        <td></td>
+        <td class="field-position" data-label="Posición">1</td>
+        <td class="field-name" data-label="Nombre/Apellidos">HATO ALVARO, FRANCISCO JAVIER</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,8210</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,8860</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">8,7070</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,8180</td>
+        <td class="field-score_final" data-label="Nota final">9,2625</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">2</td>
+        <td class="field-name" data-label="Nombre/Apellidos">AROCA MONTESINOS, NEREA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,7688</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,0900</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,8588</td>
+        <td class="field-score_second" data-label="2ª Prueba">10,0000</td>
+        <td class="field-score_final" data-label="Nota final">8,9294</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">3</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CARRILLO ROMERA, CRISTINA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5416</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4100</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,9516</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,6500</td>
+        <td class="field-score_final" data-label="Nota final">8,8008</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">4</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ANDUJAR ALCAZAR, PILAR DE LOS ANGELES</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3957</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,2850</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,6807</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,9000</td>
+        <td class="field-score_final" data-label="Nota final">8,7904</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">5</td>
+        <td class="field-name" data-label="Nombre/Apellidos">VEGA ORTUÑO, ISABEL</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6513</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,0550</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,7063</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,6740</td>
+        <td class="field-score_final" data-label="Nota final">8,6902</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">6</td>
+        <td class="field-name" data-label="Nombre/Apellidos">DURAN RICARTE, SHEILA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3901</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,1900</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,5801</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,8000</td>
+        <td class="field-score_final" data-label="Nota final">8,69</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">7</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PERIS SOLANO, MARTA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">4,2780</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,0600</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,3380</td>
+        <td class="field-score_second" data-label="2ª Prueba">10,0000</td>
+        <td class="field-score_final" data-label="Nota final">8,669</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">8</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CANO GARCIA, ANA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,7183</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,3250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,0433</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,7800</td>
+        <td class="field-score_final" data-label="Nota final">8,4116</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">9</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PORRAS MONTANE, PABLO</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3203</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,3150</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,6353</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,1400</td>
+        <td class="field-score_final" data-label="Nota final">8,3876</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">10</td>
+        <td class="field-name" data-label="Nombre/Apellidos">INIESTA COSTAS, ELENA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6920</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,9670</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,6590</td>
+        <td class="field-score_second" data-label="2ª Prueba">10,0000</td>
+        <td class="field-score_final" data-label="Nota final">8,3295</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">11</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PARADAS NARBONA, GUADALUPE</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8910</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7812</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,6722</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,8900</td>
+        <td class="field-score_final" data-label="Nota final">8,2811</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">12</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ZURANO GOMEZ, LORENA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0258</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,3250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,3508</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,0230</td>
+        <td class="field-score_final" data-label="Nota final">8,1869</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">13</td>
+        <td class="field-name" data-label="Nombre/Apellidos">LOPEZ LOPEZ, JESSICA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7145</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4240</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,1385</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,1760</td>
+        <td class="field-score_final" data-label="Nota final">8,1572</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">14</td>
+        <td class="field-name" data-label="Nombre/Apellidos">HERNANDEZ CORTES, RUBEN</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,1895</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,1870</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,3765</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,6000</td>
+        <td class="field-score_final" data-label="Nota final">7,9882</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">15</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PEREZ GARCIA, ANDREA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0695</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,2000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,2695</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,6000</td>
+        <td class="field-score_final" data-label="Nota final">7,9348</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">16</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ASIS BERENGUER, DIEGO</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9264</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,0450</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9714</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,8100</td>
+        <td class="field-score_final" data-label="Nota final">7,8907</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">17</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ABELLAN PEREZ, BELEN</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6641</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,2600</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9241</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,7340</td>
+        <td class="field-score_final" data-label="Nota final">7,829</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">18</td>
+        <td class="field-name" data-label="Nombre/Apellidos">GONZALEZ ZAPATA, RAQUEL</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,8695</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,9710</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,8405</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,6700</td>
+        <td class="field-score_final" data-label="Nota final">7,7552</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">19</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CELDRAN BAUTISTA, MARIA GRACIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4225</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,3350</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,7575</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,5500</td>
+        <td class="field-score_final" data-label="Nota final">7,6538</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">20</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PEREZ PALACIOS, MARIA DOLORES</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7585</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,5650</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,3235</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,9640</td>
+        <td class="field-score_final" data-label="Nota final">7,6438</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">21</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PEREZ SANCHEZ, IRENE</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9570</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8062</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,7632</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,5060</td>
+        <td class="field-score_final" data-label="Nota final">7,6346</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">22</td>
+        <td class="field-name" data-label="Nombre/Apellidos">GONZALEZ VIZCAINO, LAURA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,9410</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,7090</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,6500</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,3480</td>
+        <td class="field-score_final" data-label="Nota final">7,499</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">23</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CARRILERO PEINADO, VICTORIA ALEJANDRA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,5925</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,1450</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,7375</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,2300</td>
+        <td class="field-score_final" data-label="Nota final">7,4838</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">24</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CAYUELA LOZANO, NEREA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2416</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,0700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,3116</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,6400</td>
+        <td class="field-score_final" data-label="Nota final">7,4758</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">25</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PAREDES DURNEY, ADRIEN</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8595</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,0700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,9295</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,9460</td>
+        <td class="field-score_final" data-label="Nota final">7,4378</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">26</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CONTRERAS HERNANDEZ, CARLOS</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9958</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,5650</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,5608</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,1900</td>
+        <td class="field-score_final" data-label="Nota final">7,3754</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">27</td>
+        <td class="field-name" data-label="Nombre/Apellidos">LARIO CAMPOS, ESTEBAN</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">1,9125</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,9150</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8275</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,8640</td>
+        <td class="field-score_final" data-label="Nota final">7,3458</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">28</td>
+        <td class="field-name" data-label="Nombre/Apellidos">HERRERO ATIENZAR, MARTA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6405</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4120</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">8,0525</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,5820</td>
+        <td class="field-score_final" data-label="Nota final">7,3172</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">29</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PAREDES DURNEY, MARINA NOEMIE</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6405</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,4655</td>
+        <td class="field-score_second" data-label="2ª Prueba">9,0320</td>
+        <td class="field-score_final" data-label="Nota final">7,2488</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">30</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PRAVIA SORIANO, CARMEN</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7840</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,1700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,9540</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,5060</td>
+        <td class="field-score_final" data-label="Nota final">7,23</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">31</td>
+        <td class="field-name" data-label="Nombre/Apellidos">GUILLAMON MARIN, JUAN</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5670</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,0150</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,5820</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,8260</td>
+        <td class="field-score_final" data-label="Nota final">7,204</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">32</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CONESA SERNA, MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6855</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,9700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,6555</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,7400</td>
+        <td class="field-score_final" data-label="Nota final">7,1978</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">33</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PEREZ GARCIA, GISELLA VERONICA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0895</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,3900</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,4795</td>
+        <td class="field-score_second" data-label="2ª Prueba">8,2740</td>
+        <td class="field-score_final" data-label="Nota final">6,8768</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">34</td>
+        <td class="field-name" data-label="Nombre/Apellidos">VIVANCOS MOREAU, CRISTINA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9888</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,7570</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,7458</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,9180</td>
+        <td class="field-score_final" data-label="Nota final">6,8319</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">35</td>
+        <td class="field-name" data-label="Nombre/Apellidos">EL HOUARI LAHCEN, WAFAE</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8566</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,4500</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,3066</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,0400</td>
+        <td class="field-score_final" data-label="Nota final">6,6733</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">36</td>
+        <td class="field-name" data-label="Nombre/Apellidos">HERNANDEZ QUIJADA, ANTONIO MANUEL</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2310</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,3650</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,5960</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,6800</td>
+        <td class="field-score_final" data-label="Nota final">6,638</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">37</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ARACIL COSTA, SARA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9454</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,1390</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,0844</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,8400</td>
+        <td class="field-score_final" data-label="Nota final">6,4622</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">38</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ADSUAR BROTONS, ANTONIA MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2010</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,6070</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8080</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,8940</td>
+        <td class="field-score_final" data-label="Nota final">6,351</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">39</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CHACON MARTIN, MARIA DOLORES</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8057</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7100</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,5157</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,1600</td>
+        <td class="field-score_final" data-label="Nota final">6,3378</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">40</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CARRASCO GONZALEZ, ALICIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4300</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6950</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,1250</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,4300</td>
+        <td class="field-score_final" data-label="Nota final">6,2775</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">41</td>
+        <td class="field-name" data-label="Nombre/Apellidos">ARIAS RUBIO, ANDREA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,1788</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,2350</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,4138</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,1270</td>
+        <td class="field-score_final" data-label="Nota final">6,2704</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">42</td>
+        <td class="field-name" data-label="Nombre/Apellidos">DEL CAMPO ALBALADEJO, INMACULADA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">1,5950</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,5100</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,1050</td>
+        <td class="field-score_second" data-label="2ª Prueba">7,1100</td>
+        <td class="field-score_final" data-label="Nota final">6,1075</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">43</td>
+        <td class="field-name" data-label="Nombre/Apellidos">GONZALEZ SANCHEZ, MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5400</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,6230</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,1630</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,5760</td>
+        <td class="field-score_final" data-label="Nota final">5,8695</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">44</td>
+        <td class="field-name" data-label="Nombre/Apellidos">MUÑOZ RUBIO, LIDIA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3058</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,1800</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,4858</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,2260</td>
+        <td class="field-score_final" data-label="Nota final">5,8559</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">45</td>
+        <td class="field-name" data-label="Nombre/Apellidos">NAVARRO FERRA, ANTONIA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,4885</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,6487</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,1372</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,5640</td>
+        <td class="field-score_final" data-label="Nota final">5,8506</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">46</td>
+        <td class="field-name" data-label="Nombre/Apellidos">RAMOS GARCIA, ANA MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5175</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,4300</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9475</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,6390</td>
+        <td class="field-score_final" data-label="Nota final">5,7932</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">47</td>
+        <td class="field-name" data-label="Nombre/Apellidos">IMBERNON MEROÑO, CARMEN</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6055</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8910</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,4965</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,0460</td>
+        <td class="field-score_final" data-label="Nota final">5,7712</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">48</td>
+        <td class="field-name" data-label="Nombre/Apellidos">LOPEZ LOPEZ, ANTONIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7095</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8130</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,5225</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,8640</td>
+        <td class="field-score_final" data-label="Nota final">5,6932</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">49</td>
+        <td class="field-name" data-label="Nombre/Apellidos">CARO MARTINEZ, MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4948</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,7550</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,2498</td>
+        <td class="field-score_second" data-label="2ª Prueba">6,0600</td>
+        <td class="field-score_final" data-label="Nota final">5,6549</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">50</td>
+        <td class="field-name" data-label="Nombre/Apellidos">GUERRERO CAYUELA, MARIA ISABEL</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3300</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,6630</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9930</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,2960</td>
+        <td class="field-score_final" data-label="Nota final">5,6445</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">51</td>
+        <td class="field-name" data-label="Nombre/Apellidos">PEREZ BERBEL, PALMA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,3150</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8012</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,1162</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,3840</td>
+        <td class="field-score_final" data-label="Nota final">5,2501</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición">52</td>
+        <td class="field-name" data-label="Nombre/Apellidos">MUÑOZ VERDU, ROCIO</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,2885</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8450</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,1335</td>
+        <td class="field-score_second" data-label="2ª Prueba">5,2280</td>
+        <td class="field-score_final" data-label="Nota final">5,1808</td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BAÑOS MURCIA, MARIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">4,1987</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,5250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">8,7237</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ RUIZ, MARIA DEL PILAR</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,9475</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4010</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">8,3485</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">SANCHEZ LIZARAN, VICTOR</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,9160</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4300</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">8,3460</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">LORENTE SANCHEZ, ANA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3945</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,5250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,9195</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">RUIZ RODRIGUEZ, ALBA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,4875</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,9687</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,4562</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MOLINA GUILLEN, PILAR</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,3100</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,0220</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,3320</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">AYMAN AYMAN, SANAA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5831</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6900</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,2731</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MOLINA MARTIN DE LA FUENTE, ARACELI VICTORIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,7960</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,4370</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,2330</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GARCIA ZAMORA, ALBERTO</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7483</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,3450</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">7,0933</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BOX GARCIA, DAVID</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6875</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,3000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,9875</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">CAMACHO GABALDON, ADRIAN</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,4953</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,4250</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,9203</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GIL MORENO, LIDIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4074</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,5100</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,9174</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BAEZA MOMPEAN, MARINA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9606</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,9000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,8606</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">FLORENCIANO GARCIA, BLANCA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6850</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,1500</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,8350</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">RODRIGUEZ VERA, PALOMA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,8280</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,0062</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,8342</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GARCIA MATAS, MARINA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0508</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7350</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,7858</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MUNUERA GARCIA, ANA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2080</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,5300</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,7380</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ ALCARAZ, JOSE</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,1580</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,4210</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,5790</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">CABERO MORALES, LUCIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,0735</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">4,4790</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,5525</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GARCIA GARCIA, LUCIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6732</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7400</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,4132</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">SANCHEZ OTALORA, JAVIER</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6625</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,3325</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ MARTINEZ, NURIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9900</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,2870</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,2770</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">FERNANDEZ CANOVAS, ANA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6233</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6450</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,2683</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BOUTCHICHI MERIMI, SAMIR</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9475</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,2730</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,2205</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MOLINA MUÑOZ, MONICA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,5240</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,5410</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,0650</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MORENO NICOLAS, ELENA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,6080</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,4440</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,0520</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">ESPINOSA GUERRERO, LAURA DEL CARMEN</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,7166</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,2900</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">6,0066</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ ZAMORA, CONSTANZA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6925</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,2350</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9275</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">ROMERO PALAZON, PURIFICACION</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,1165</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7937</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,9102</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">SANCHEZ PEREZ, MARIA DEL MAR</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0145</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8600</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8745</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ ROBLES, MARIA DOLORES</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2870</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,5780</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8650</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BLASCO GIL, MANUEL</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8850</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,9750</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8600</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">ROBLES VALDIVIESO, CARMEN</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,8225</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,0312</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,8537</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GOMEZ CARCEDO, MARINA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,0599</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6950</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,7549</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">CAMARA VALDES-ALBISTUR, CLAUDIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4738</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,2670</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,7408</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">ROSIQUE CEREZO, BLANCA</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,2695</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,3700</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,6395</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">CARRILLO LOPEZ, PAULA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2366</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,3850</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,6216</td>
+        <td class="field-score_second" data-label="2ª Prueba">4,7600</td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">FERNANDEZ ARENAS, PAULA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,0158</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,6000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,6158</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">OTON PUERTA, ROCIO</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">1,7565</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7850</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,5415</td>
+        <td class="field-score_second" data-label="2ª Prueba">4,6260</td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GARRE JAEN, ELENA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,9391</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,4050</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,3441</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">SANCHEZ VALERA, MARIA JESUS</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,2530</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,0562</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,3092</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARIN GARCIA, SILVIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,7505</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,5500</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,3005</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MARTINEZ CAMPOY, LUCIA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4960</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,2960</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">MEDINA FUENTES, HELENA</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,6990</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,5930</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,2920</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">SALHI DAOUDI, IKRAM</td>
+        <td class="field-tribunal" data-label="Tribunal">04</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,4620</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">1,8000</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,2620</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">FAURA MONEDERO, MARIA MERCEDES</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,4133</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,8100</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,2233</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">IBAÑEZ GONZALEZ, CONSTANTINO</td>
+        <td class="field-tribunal" data-label="Tribunal">03</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,5300</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">1,6460</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,1760</td>
+        <td class="field-score_second" data-label="2ª Prueba">4,5440</td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BLANCO DE LA CERRA, SOFIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">2,5974</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">2,5300</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,1274</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">GOMEZ CLEMENTE, ESTEFANIA</td>
+        <td class="field-tribunal" data-label="Tribunal">02</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">1,3491</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">3,7300</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,0791</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
+      </tr>
+      <tr>
+        <td class="field-position" data-label="Posición"></td>
+        <td class="field-name" data-label="Nombre/Apellidos">BUENO SOLER, SOFIA</td>
+        <td class="field-tribunal" data-label="Tribunal">01</td>
+        <td class="field-score_a" data-label="1ª Prueba (A)">3,0838</td>
+        <td class="field-score_b" data-label="1ª Prueba (B)">1,9400</td>
+        <td class="field-score_total" data-label="1ª Prueba (Total)">5,0238</td>
+        <td class="field-score_second" data-label="2ª Prueba"></td>
+        <td class="field-score_final" data-label="Nota final"></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <p>Tabla generada</p>
+  </main>
   <script>
-function sortTable(n) {
+function sortRows(n, order) {
   const table = document.getElementById("data-table");
   const tbody = table.tBodies[0];
   const rows = Array.from(tbody.rows);
   const th = table.tHead.rows[0].cells[n];
   const type = th.dataset.type || "string";
-  const current = th.dataset.order === "asc" ? "desc" : "asc";
   table.tHead.querySelectorAll("th").forEach(th2 => th2.dataset.order = "");
-  th.dataset.order = current;
+  th.dataset.order = order;
   rows.sort((a,b) => {
     let va = a.cells[n].innerText.trim();
     let vb = b.cells[n].innerText.trim();
     if (type === "number") {
       va = parseFloat(va.replace(",", ".")) || 0;
       vb = parseFloat(vb.replace(",", ".")) || 0;
-      return current === "asc" ? va - vb : vb - va;
+      return order === "asc" ? va - vb : vb - va;
     }
-    return current === "asc" ? va.localeCompare(vb, "es", {sensitivity: "base"}) : vb.localeCompare(va, "es", {sensitivity: "base"});
+    return order === "asc" ? va.localeCompare(vb, "es", {sensitivity: "base"}) : vb.localeCompare(va, "es", {sensitivity: "base"});
   });
   rows.forEach(row => tbody.appendChild(row));
+}
+function sortTable(n) {
+  const th = document.getElementById("data-table").tHead.rows[0].cells[n];
+  sortRows(n, th.dataset.order === "asc" ? "desc" : "asc");
+}
+function sortFromSelect() {
+  const value = document.getElementById("mobile-sort").value;
+  if (!value) return;
+  const [column, order] = value.split("|");
+  sortRows(Number(column), order);
 }
 function filterTable() {
   const query = document.getElementById("search").value.toLowerCase();
   const rows = document.getElementById("data-table").tBodies[0].rows;
+  let visible = 0;
   for (const row of rows) {
-    row.style.display = row.textContent.toLowerCase().includes(query) ? "" : "none";
+    const matches = row.textContent.toLowerCase().includes(query);
+    row.style.display = matches ? "" : "none";
+    if (matches) visible += 1;
   }
+  document.getElementById("result-count").textContent = `${visible} ${visible === 1 ? "resultado" : "resultados"}`;
 }
   </script>
 </body>
