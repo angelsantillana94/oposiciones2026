@@ -1,41 +1,61 @@
 Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte A (1ª prueba),Parte B (1ª prueba),Total (1ª prueba),2ª prueba,Nota final (examen),Baremo,Nota final (con Baremo)
-1,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10620,1,2415,"SALMERON RAMOS, MIGUEL ANGEL","4,7000","4,0900","8,7900","10,0000","9,395","10,0000","9,5957"
-2,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10610,1,3738,"SALMERON MARIN, JOSE ANTONIO","3,9850","4,6600","8,6450","9,3500","8,9975","9,0000","8,9974"
-3,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11040,1,8144,"SANCHEZ SANCHEZ, CARLOS","3,6250","3,4000","7,0250","8,9300","7,9775","10,0000","8,6508"
-4,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10830,1,6915,"SANCHEZ JIMENEZ, ISABEL MARIA","2,7200","3,8850","6,6050","9,6720","8,1385","9,5000","8,5915"
-5,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10320,1,6209,"ROSIQUE CARRION, ANDRES","3,0450","4,1850","7,2300","9,2060","8,218","9,0000","8,4778"
-6,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11420,1,7397,"SORIANO RUBIRA, FRANCISCO JOSE","2,0400","3,7300","5,7700","10,0000","7,885","9,5000","8,4225"
-7,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11280,1,0079,"SERRANO GOMEZ, ALEJANDRO","3,8500","4,3500","8,2000","9,8700","9,035","7,1664","8,4113"
-8,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10700,1,4333,"SANCHEZ DE SAN PEDRO, SERGIO","3,1950","3,5000","6,6950","9,2330","7,964","9,0000","8,3085"
-9,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11500,1,9853,"TERRES LLORET, FERNANDO EDUARDO","4,1000","3,6100","7,7100","6,7840","7,247","10,0000","8,1639"
-10,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11370,1,5770,"SOLER MESA, LORENA","3,4050","1,8800","5,2850","8,9960","7,1405","9,5000","7,9262"
-11,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10360,1,9496,"RUIZ ARCAS, DANIEL","3,2550","2,4150","5,6700","7,8740","6,772","10,0000","7,8472"
-12,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10440,1,9542,"RUIZ MENDEZ, ALFONSO JOSE","3,3300","2,5650","5,8950","8,5920","7,2435","9,0000","7,8282"
-13,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10720,1,5421,"SANCHEZ GARCIA, ADRIAN","2,6900","3,0360","5,7260","9,0270","7,3765","8,5000","7,7502"
-14,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11240,1,8544,"SERRANO BENAVENTE, ANTONIO JOSE","3,4750","3,2250","6,7000","7,4140","7,057","9,0000","7,7039"
-15,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11300,1,1996,"SERRANO JIMENEZ, JOSE ANTONIO","3,5950","2,3350","5,9300","9,0810","7,5055","7,8664","7,625"
-16,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10400,1,5669,"RUIZ GUTIERREZ, JUAN JOSE","3,2200","3,9900","7,2100","9,9700","8,59","5,3833","7,5203"
-17,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11210,1,6145,"SEMITIEL MORALES, MANUEL","4,2900","3,5562","7,8462","8,9640","8,4051","5,0163","7,2748"
-18,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10580,1,4772,"SALCEDO MARTI, PEDRO IGNACIO","1,7400","4,3800","6,1200","9,9200","8,02","5,2914","7,1098"
-19,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11700,1,9472,"TUDELA URREA, ANTONIO TOMAS","3,4000","2,8700","6,2700","6,7950","6,5325","8,1666","7,0765"
-20,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10910,1,7907,"SANCHEZ MARTINEZ, JOSE MANUEL","2,3700","2,7820","5,1520","9,8900","7,521","5,4499","6,83"
-21,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10470,1,4147,"RUIZ PARRA, ALVARO","1,9050","4,7050","6,6100","9,9800","8,295","3,4100","6,666"
-22,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11650,1,0536,"TOVAR MARIN, FRANCISCO","3,0250","3,5583","6,5833","7,5550","7,0692","5,5163","6,5509"
-23,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11070,1,2548,"SANCHEZ SOTO, MIGUEL","1,9450","3,9125","5,8575","9,3400","7,5988","3,9165","6,3707"
-24,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11200,1,6145,"SEMITIEL MORALES, CARLOS","1,5500","3,4500","5,0000","9,7800","7,39","3,4744","6,0842"
-25,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11390,1,5856,"SOLERA VERANO, ANTONIO","1,7900","3,3350","5,1250","9,1200","7,1225","3,5000","5,9144"
-26,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11330,1,4816,"SERRANO PONCE, PABLO","2,5800","3,9250","6,5050","7,2480","6,8765","3,8664","5,8725"
+1,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01220,1,9674,"AZOR REVERTE, JAVIER","4,4593","4,7330","9,1923","10,0000","9,5962","10,0000","9,7298"
+2,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10620,1,2415,"SALMERON RAMOS, MIGUEL ANGEL","4,7000","4,0900","8,7900","10,0000","9,395","10,0000","9,5957"
+3,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01000,1,1347,"ANDRADA CAMPILLO, MARTA","4,3701","4,5232","8,8933","9,6270","9,2602","10,0000","9,5058"
+4,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01010,1,5549,"ANDREU QUIÑONES, MARIO","3,3903","5,0000","8,3903","10,0000","9,1952","9,5000","9,2959"
+5,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10610,1,3738,"SALMERON MARIN, JOSE ANTONIO","3,9850","4,6600","8,6450","9,3500","8,9975","9,0000","8,9974"
+6,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00780,1,6141,"ALCAZAR SANCHEZ, CARMEN TRINIDAD","3,8152","4,0960","7,9112","9,1903","8,5508","9,5000","8,8663"
+7,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11040,1,8144,"SANCHEZ SANCHEZ, CARLOS","3,6250","3,4000","7,0250","8,9300","7,9775","10,0000","8,6508"
+8,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10830,1,6915,"SANCHEZ JIMENEZ, ISABEL MARIA","2,7200","3,8850","6,6050","9,6720","8,1385","9,5000","8,5915"
+9,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00710,1,8193,"ALBALADEJO MORENO, OLGA","4,3221","4,5818","8,9039","10,0000","9,452","6,5831","8,4949"
+10,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10320,1,6209,"ROSIQUE CARRION, ANDRES","3,0450","4,1850","7,2300","9,2060","8,218","9,0000","8,4778"
+11,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11420,1,7397,"SORIANO RUBIRA, FRANCISCO JOSE","2,0400","3,7300","5,7700","10,0000","7,885","9,5000","8,4225"
+12,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11280,1,0079,"SERRANO GOMEZ, ALEJANDRO","3,8500","4,3500","8,2000","9,8700","9,035","7,1664","8,4113"
+13,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01030,1,9818,"ANTONANZAS VALVERDE, SERGIO","3,3773","3,7392","7,1165","8,7180","7,9172","9,2497","8,3605"
+14,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10700,1,4333,"SANCHEZ DE SAN PEDRO, SERGIO","3,1950","3,5000","6,6950","9,2330","7,964","9,0000","8,3085"
+15,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11500,1,9853,"TERRES LLORET, FERNANDO EDUARDO","4,1000","3,6100","7,7100","6,7840","7,247","10,0000","8,1639"
+16,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11370,1,5770,"SOLER MESA, LORENA","3,4050","1,8800","5,2850","8,9960","7,1405","9,5000","7,9262"
+17,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10360,1,9496,"RUIZ ARCAS, DANIEL","3,2550","2,4150","5,6700","7,8740","6,772","10,0000","7,8472"
+18,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00770,1,9181,"ALCAZAR GAZQUEZ, RAQUEL","2,2238","4,2422","6,4660","8,1100","7,288","8,9165","7,8301"
+19,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10440,1,9542,"RUIZ MENDEZ, ALFONSO JOSE","3,3300","2,5650","5,8950","8,5920","7,2435","9,0000","7,8282"
+20,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10720,1,5421,"SANCHEZ GARCIA, ADRIAN","2,6900","3,0360","5,7260","9,0270","7,3765","8,5000","7,7502"
+21,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01190,1,6459,"AYALA MARTIN, CRISTINA","3,2445","4,5655","7,8100","8,6450","8,2275","6,7499","7,7342"
+22,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11240,1,8544,"SERRANO BENAVENTE, ANTONIO JOSE","3,4750","3,2250","6,7000","7,4140","7,057","9,0000","7,7039"
+23,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01270,1,2226,"BALLESTER CARRION, ELVIS JOSE","3,5523","2,5666","6,1189","6,9328","6,5258","10,0000","7,6831"
+24,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11300,1,1996,"SERRANO JIMENEZ, JOSE ANTONIO","3,5950","2,3350","5,9300","9,0810","7,5055","7,8664","7,625"
+25,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01170,1,7297,"ATENZA GONZALEZ, FRANCISCO","4,0030","3,6072","7,6102","9,8800","8,7451","5,0833","7,5237"
+26,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10400,1,5669,"RUIZ GUTIERREZ, JUAN JOSE","3,2200","3,9900","7,2100","9,9700","8,59","5,3833","7,5203"
+27,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01250,1,0318,"BALERIOLA PRIETO, SERGIO","3,5381","4,2817","7,8198","6,9700","7,3949","7,1666","7,3181"
+28,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01370,1,1293,"BARRON SERRANO, NURIA","3,7652","3,0076","6,7728","9,2700","8,0214","5,8500","7,2969"
+29,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11210,1,6145,"SEMITIEL MORALES, MANUEL","4,2900","3,5562","7,8462","8,9640","8,4051","5,0163","7,2748"
+30,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10580,1,4772,"SALCEDO MARTI, PEDRO IGNACIO","1,7400","4,3800","6,1200","9,9200","8,02","5,2914","7,1098"
+31,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11700,1,9472,"TUDELA URREA, ANTONIO TOMAS","3,4000","2,8700","6,2700","6,7950","6,5325","8,1666","7,0765"
+32,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01260,1,0521,"BALLESTA NICOLAS, ANTONIO","3,2362","2,8019","6,0381","7,6182","6,8282","6,9165","6,8569"
+33,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10910,1,7907,"SANCHEZ MARTINEZ, JOSE MANUEL","2,3700","2,7820","5,1520","9,8900","7,521","5,4499","6,83"
+34,EF,14,0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf,10470,1,4147,"RUIZ PARRA, ALVARO","1,9050","4,7050","6,6100","9,9800","8,295","3,4100","6,666"
+35,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01110,1,1869,"AROCA EGEA, JOSE ANTONIO","1,8671","3,1573","5,0244","5,3000","5,1622","9,5000","6,6075"
+36,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11650,1,0536,"TOVAR MARIN, FRANCISCO","3,0250","3,5583","6,5833","7,5550","7,0692","5,5163","6,5509"
+37,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11070,1,2548,"SANCHEZ SOTO, MIGUEL","1,9450","3,9125","5,8575","9,3400","7,5988","3,9165","6,3707"
+38,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00640,1,2591,"AGUILAR GARCIA, LIDIA MACARENA","2,7312","3,6003","6,3315","8,1513","7,2414","4,2500","6,2436"
+39,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00790,1,4303,"ALCIONE OLMOS, CESARE","1,7185","4,0432","5,7617","10,0000","7,8808","2,5000","6,0866"
+40,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11200,1,6145,"SEMITIEL MORALES, CARLOS","1,5500","3,4500","5,0000","9,7800","7,39","3,4744","6,0842"
+41,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00620,1,6619,"ABRIL HERNANDEZ, DAVID","2,5388","4,4361","6,9749","7,3523","7,1636","3,5833","5,9696"
+42,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11390,1,5856,"SOLERA VERANO, ANTONIO","1,7900","3,3350","5,1250","9,1200","7,1225","3,5000","5,9144"
+43,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00830,1,0106,"ALEMAN GOMEZ, HELENA","1,8331","3,2627","5,0958","8,0050","6,5504","4,5832","5,8941"
+44,EF,15,0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf,11330,1,4816,"SERRANO PONCE, PABLO","2,5800","3,9250","6,5050","7,2480","6,8765","3,8664","5,8725"
+45,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00700,1,5866,"ALBALADEJO MARIN, EDUARDO","2,8278","2,5421","5,3699","7,9302","6,65","3,3328","5,5437"
+46,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01050,1,4485,"ARCE MARTINEZ, ALMUDENA","1,3386","4,0729","5,4115","7,4500","6,4308","3,6664","5,5088"
+47,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00740,1,7732,"ALCARAZ BAEZA, PABLO","2,8133","3,3021","6,1154","6,2301","6,1728","3,8332","5,3924"
+48,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01400,1,2252,"BASTIDA HERNANDEZ, MARIA","2,2938","3,3888","5,6826","5,0121","5,3474","3,3332","4,6755"
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08060,1,2122,"MORENO CASELLES, MIRIAM","4,7600","4,7600","9,5200","10,0000","9,76",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07030,1,6913,"MARTINEZ GARCIA, JAIME","5,0000","4,5050","9,5050","10,0000","9,7525",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,03850,1,0148,"GARCIA GARCIA, PEDRO LUIS","4,5600","4,9400","9,5000","10,0000","9,75",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06240,1,3101,"LOPEZ VERA, ANTONIO","4,1937","5,0000","9,1937","10,0000","9,5968",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01220,1,9674,"AZOR REVERTE, JAVIER","4,4593","4,7330","9,1923","10,0000","9,5962",,
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08250,1,4405,"MUÑOZ IBAÑEZ, JOSE","4,3450","4,8450","9,1900","10,0000","9,595",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06040,1,5050,"LOPEZ HERRERO, FRANCISCO","5,0000","4,8100","9,8100","9,3150","9,5625",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09820,1,2335,"RIQUELME VICENTE, ANGELA MARIA","4,2947","4,9500","9,2447","9,8784","9,5616",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02810,1,4553,"DEL BOSQUE BOLARIN, CARMEN","4,6340","4,4870","9,1210","10,0000","9,5605",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00570,1,3420,"ABELLAN AULLO, ASUNCION MARIA","4,5400","4,9300","9,4700","9,6100","9,54",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00710,1,8193,"ALBALADEJO MORENO, OLGA","4,3221","4,5818","8,9039","10,0000","9,452",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09370,1,1751,"PEREZ YEPES, JOSE VICTOR","4,8128","4,5787","9,3915","9,5072","9,4494",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07500,1,7174,"MEDINA CORREA, ELENA","4,1100","5,0000","9,1100","9,7500","9,43",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02380,1,3060,"CEREZUELA FERNANDEZ, LAURA","4,8850","4,4680","9,3530","9,5060","9,4295",,
@@ -50,9 +70,7 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01780,1,3025,"CABRERA MARCOS, MIGUEL ANGEL","3,7750","4,8656","8,6406","10,0000","9,3203",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00280,1,3607,"VELASCO AMATE, MARIA DE LA CRUZ","4,1750","4,4300","8,6050","9,9400","9,2725",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09650,1,2065,"PULIDO CASTELLANO, ANDREA PAOLA","4,4633","4,2834","8,7467","9,7930","9,2698",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01000,1,1347,"ANDRADA CAMPILLO, MARTA","4,3701","4,5232","8,8933","9,6270","9,2602",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05010,1,3472,"HERNANDEZ LOPEZ, MARIA JOSEFA","4,4100","4,7800","9,1900","9,2100","9,2",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01010,1,5549,"ANDREU QUIÑONES, MARIO","3,3903","5,0000","8,3903","10,0000","9,1952",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06000,1,9896,"LOPEZ DOMINGUEZ, MONICA","3,6700","4,8800","8,5500","9,8300","9,19",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05060,1,8713,"HERNANDEZ MORA, RUBEN","4,8850","3,5450","8,4300","9,9300","9,18",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04000,1,1951,"GARCIA MARTINEZ, CAROLINA","4,2200","4,1350","8,3550","10,0000","9,1775",,
@@ -84,7 +102,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01550,1,8569,"BERNABE RODRIGUEZ, BELEN","4,5937","3,5562","8,1499","9,4220","8,786",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05400,1,4105,"JAQUERO YEPEZ, PABLO","3,6800","4,9300","8,6100","8,9350","8,7725",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00270,1,4442,"VAZQUEZ RIVERA, ALEJANDRO","3,1583","4,6900","7,8483","9,6600","8,7542",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01170,1,7297,"ATENZA GONZALEZ, FRANCISCO","4,0030","3,6072","7,6102","9,8800","8,7451",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05530,1,3054,"JIMENEZ MENDEZ, JAVIER","2,6050","4,9500","7,5550","9,9300","8,7425",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05580,1,3567,"JIMENEZ ROMERO, JULIO JOSE","3,6700","3,7000","7,3700","10,0000","8,685",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05930,1,4346,"LLINARES PIQUERO, PAULA","3,2350","4,3800","7,6150","9,7266","8,6708",,
@@ -100,7 +117,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04410,1,4080,"GOMEZ GONZALEZ, PEDRO JOSE","3,4900","3,6150","7,1050","10,0000","8,5525",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04340,1,0741,"GIMENEZ PEREZ CHUECOS, MARCOS","3,8050","3,4700","7,2750","9,8300","8,5525",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00130,1,2868,"UBEDA ORTUÑO, FRANCISCO MIGUEL","4,4950","3,7600","8,2550","8,8480","8,5515",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00780,1,6141,"ALCAZAR SANCHEZ, CARMEN TRINIDAD","3,8152","4,0960","7,9112","9,1903","8,5508",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02900,1,1926,"DIAZ DOMINGUEZ, SARA","3,5000","4,6970","8,1970","8,9040","8,5505",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00610,1,5108,"ABENZA GARCIA, ALBERTO","2,9000","5,0000","7,9000","9,1900","8,545",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05030,1,1428,"HERNANDEZ MARTINEZ, ANTONIO JOSE","4,4750","4,0600","8,5350","8,4960","8,5155",,
@@ -125,7 +141,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,06980,1,3203,"MARTINEZ FULLEDA, ANA MARIA","4,1700","2,7700","6,9400","9,5700","8,255",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05990,1,7559,"LOPEZ CIFUENTES, MARIA ISABEL","2,1350","5,0000","7,1350","9,3660","8,2505",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07140,1,0291,"MARTINEZ LOPEZ, MIGUEL","3,8000","3,2400","7,0400","9,4300","8,235",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01190,1,6459,"AYALA MARTIN, CRISTINA","3,2445","4,5655","7,8100","8,6450","8,2275",,
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01650,1,3741,"BLANCO SANCHEZ, AMANDA","3,7100","3,4031","7,1131","9,3340","8,2236",,
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08220,1,7537,"MUNUERA TORMOS, ANGEL","2,8000","3,6400","6,4400","10,0000","8,22",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06010,1,3659,"LOPEZ FERNANDEZ, RAQUEL","3,1200","4,9700","8,0900","8,2760","8,183",,
@@ -146,7 +161,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,07760,1,9556,"MOLINO SANCHEZ, RAQUEL","3,4750","3,9150","7,3900","8,7100","8,05",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07220,1,8976,"MARTINEZ MELGAREJO, JAVIER","4,8400","2,0400","6,8800","9,1880","8,034",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03620,1,9296,"GAMBIN JIMENEZ, SALVADOR","3,3900","3,3900","6,7800","9,2700","8,025",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01370,1,1293,"BARRON SERRANO, NURIA","3,7652","3,0076","6,7728","9,2700","8,0214",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,03870,1,6130,"GARCIA GOMEZ, ALEJANDRO","3,4050","4,0250","7,4300","8,5900","8,01",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06470,1,5400,"MANZANERA MARTINEZ, JOSE MIGUEL","3,2100","3,9293","7,1393","8,8750","8,0072",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05960,1,9699,"LOPEZ ALCAINA, MIGUEL","2,6350","3,9100","6,5450","9,4300","7,9875",,
@@ -154,10 +168,8 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02640,1,1271,"CRESPO ABELLAN, JUAN FRANCISCO","1,6100","4,2480","5,8580","10,0000","7,929",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07250,1,2680,"MARTINEZ MOTOS, ALEJANDRO","1,8500","4,0000","5,8500","10,0000","7,925",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,08750,1,5833,"PAGAN SANCHEZ, JOSE","3,5350","3,6750","7,2100","8,6266","7,9183",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01030,1,9818,"ANTONANZAS VALVERDE, SERGIO","3,3773","3,7392","7,1165","8,7180","7,9172",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06060,1,0486,"LOPEZ IBAÑEZ, FRANCISCO JAVIER","2,1300","4,6500","6,7800","9,0120","7,896",,
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08480,1,6510,"NIETO CASTILLO, NATALIA","3,1100","3,8500","6,9600","8,8100","7,885",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00790,1,4303,"ALCIONE OLMOS, CESARE","1,7185","4,0432","5,7617","10,0000","7,8808",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07180,1,4967,"MARTINEZ MARIN, MIGUEL ANGEL","3,3800","2,5000","5,8800","9,8700","7,875",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00460,1,9254,"VILLALOBOS CARDOSO, ALICIA","3,1050","4,5333","7,6383","8,1040","7,8712",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02430,1,3244,"CHICANO HERNANDEZ, ROSA MARIA","3,5266","4,6333","8,1599","7,5320","7,846",,
@@ -211,7 +223,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08270,1,5752,"MUÑOZ MARTINEZ, PEDRO JESUS","3,0450","2,7650","5,8100","9,0200","7,415",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,08820,1,2256,"PALMA GOMEZ, SARAY","1,8860","3,7900","5,6760","9,1240","7,4",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03250,1,8342,"FERNANDEZ LOPEZ, NURIA","1,3800","3,6200","5,0000","9,8000","7,4",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01250,1,0318,"BALERIOLA PRIETO, SERGIO","3,5381","4,2817","7,8198","6,9700","7,3949",,
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,08440,1,9501,"NAVARRO QUIÑONERO, MARCOS","3,3600","3,3200","6,6800","8,0900","7,385",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06510,1,3611,"MARHUENDA TIBURCIO, CLARA","2,8450","2,9230","5,7680","8,9737","7,3708",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02840,1,4674,"DEL TORO MARIN, ESTHER","3,8416","3,4550","7,2966","7,4140","7,3553",,
@@ -221,21 +232,18 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00520,1,4854,"VIVO LOPEZ, GUILLERMO","2,4300","4,7950","7,2250","7,3940","7,3095",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06290,1,6144,"LOZANO ALONSO, ALBERTO","3,1937","3,3640","6,5577","8,0587","7,3082",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07440,1,0640,"MATEOS RODRIGUEZ, MATILDE","1,6300","3,6500","5,2800","9,3100","7,295",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00770,1,9181,"ALCAZAR GAZQUEZ, RAQUEL","2,2238","4,2422","6,4660","8,1100","7,288",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,10050,1,8157,"RODRIGUEZ MARTINEZ, FRANCISCO","3,0341","4,0562","7,0903","7,4725","7,2814",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,04790,1,0658,"GUERRERO PADILLA, INMACULADA","1,7100","3,3900","5,1000","9,4260","7,263",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05280,1,5337,"HURTADO LUENGO, JULIO","2,7800","4,4350","7,2150","7,2820","7,2485",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06450,1,7604,"MANZANARES SOLER, MIREYA","2,6375","3,9475","6,5850","7,9087","7,2468",,
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01840,1,5045,"CAMPILLO MESEGUER, OLAYO","1,7375","4,1893","5,9268","8,5600","7,2434",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03170,1,6508,"FERNANDEZ EGEA, PABLO","4,6400","3,5950","8,2350","6,2500","7,2425",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00640,1,2591,"AGUILAR GARCIA, LIDIA MACARENA","2,7312","3,6003","6,3315","8,1513","7,2414",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05740,1,8301,"LARA TORIBIO, JAVIER","3,3700","2,8300","6,2000","8,2750","7,2375",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,04670,1,9974,"GONZALEZ SAEZ, JOSE MIGUEL","2,3050","3,9550","6,2600","8,1750","7,2175",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07470,1,0311,"MECA DEL REY, ISABEL","1,8900","3,7100","5,6000","8,8110","7,2055",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,08580,1,4941,"OCAÑA SALAS, BORJA","2,9550","3,2060","6,1610","8,2206","7,1908",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03600,1,4817,"GALLEGO LAGLERA, JULIA","2,9100","3,3600","6,2700","8,0900","7,18",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00140,1,8351,"URREA GARCIA, JOSE ANTONIO","3,0250","4,4300","7,4550","6,8850","7,17",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00620,1,6619,"ABRIL HERNANDEZ, DAVID","2,5388","4,4361","6,9749","7,3523","7,1636",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02270,1,4600,"CASTRO GARCIA, ANGEL","1,7170","3,8410","5,5580","8,7632","7,1606",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05120,1,3917,"HERNANDEZ TORRECILLAS, CLARA","2,6400","3,7920","6,4320","7,8300","7,131",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03570,1,9861,"GALLEGO CAYUELAS, ALVARO","3,6600","1,8380","5,4980","8,7600","7,129",,
@@ -257,7 +265,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07200,1,5456,"MARTINEZ MARTINEZ, JOSE LUIS","2,4000","2,8900","5,2900","8,4640","6,877",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09470,1,3729,"PLAZA LARROSA, ALEJANDRO","2,1701","3,3663","5,5364","8,1700","6,8532",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07230,1,5160,"MARTINEZ MERCADER, JESUS","1,4900","3,7100","5,2000","8,4920","6,846",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01260,1,0521,"BALLESTA NICOLAS, ANTONIO","3,2362","2,8019","6,0381","7,6182","6,8282",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05440,1,3221,"JIMENEZ ANDREU, ISMAEL","3,0100","4,0350","7,0450","6,5776","6,8113",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06770,1,2731,"MARTIN RUIZ, YULISA","2,3000","3,4431","5,7431","7,8700","6,8066",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00300,1,7253,"VELEZ MARTINEZ, ALBERTO","3,1550","3,9166","7,0716","6,5400","6,8058",,
@@ -273,18 +280,14 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04180,1,4516,"GAREA FRUCTUOSO, VIRGINIA","2,3950","3,4100","5,8050","7,6500","6,7275",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,08980,1,1385,"PASTRANA MANZANO, JESUS MANUEL","3,1050","3,3600","6,4650","6,8691","6,667",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02400,1,2435,"CHACON AGUAYO, LAURA","2,1200","3,1750","5,2950","8,0068","6,6509",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00700,1,5866,"ALBALADEJO MARIN, EDUARDO","2,8278","2,5421","5,3699","7,9302","6,65",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02200,1,9411,"CASTELLAR VILAR, JUAN CARLOS","2,0180","3,0500","5,0680","8,2122","6,6401",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05230,1,3498,"HOCES GARCIA, PAOLA","4,5500","1,6900","6,2400","7,0400","6,64",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04040,1,9821,"GARCIA MUÑOZ, ESTHER","1,7650","3,5950","5,3600","7,8940","6,627",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00830,1,0106,"ALEMAN GOMEZ, HELENA","1,8331","3,2627","5,0958","8,0050","6,5504",,
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01510,1,7589,"BERMEJO HERNANDEZ, NURIA","3,1662","2,8472","6,0134","7,0750","6,5442",,
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06800,1,1916,"MARTIN SOBRINO, IRENE","2,7875","3,8755","6,6630","6,4200","6,5415",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01270,1,2226,"BALLESTER CARRION, ELVIS JOSE","3,5523","2,5666","6,1189","6,9328","6,5258",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,09210,1,5974,"PEREZ LOPEZ, MARINA","2,3870","3,5760","5,9630","7,0172","6,4901",,
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,01930,1,9570,"CANOVAS ALCARAZ, CRISTINA","2,3780","3,7730","6,1510","6,8075","6,4792",,
 ,EF,12,0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf,08760,1,3576,"PALACIOS FUENTES, NATALIA","2,1550","3,8650","6,0200","6,8680","6,444",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01050,1,4485,"ARCE MARTINEZ, ALMUDENA","1,3386","4,0729","5,4115","7,4500","6,4308",,
 ,EF,07,0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf,05100,1,2956,"HERNANDEZ REY, EVA","2,3100","4,0000","6,3100","6,5400","6,425",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,06960,1,6583,"MARTINEZ ESPAÑA, MARIA","1,6200","3,4100","5,0300","7,7900","6,41",,
 ,EF,11,0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf,07850,1,9479,"MONTERO GONZALEZ, ALFREDO","3,1350","4,0800","7,2150","5,5800","6,3975",,
@@ -299,7 +302,6 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,09,0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf,06660,1,4432,"MARTIN CABALLERO, VICTORIA","2,3500","3,3280","5,6780","6,7975","6,2378",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,05680,1,4984,"LACAL BERNABE, JOAQUIN","2,6500","3,9400","6,5900","5,8436","6,2168",,
 ,EF,08,0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,06050,1,2053,"LOPEZ HERVAS, MARINA","2,9850","2,7437","5,7287","6,6666","6,1976",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,00740,1,7732,"ALCARAZ BAEZA, PABLO","2,8133","3,3021","6,1154","6,2301","6,1728",,
 ,EF,01,0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf,00290,1,3064,"VELASCO NAVARRO, ALVARO","2,2750","4,5350","6,8100","5,4583","6,1342",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03750,1,1707,"GARCIA CHICA, MARIA JOSE","2,6600","4,1800","6,8400","5,3950","6,1175",,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02290,1,7881,"CAVA MARTINEZ, PABLO","3,8830","2,1910","6,0740","6,1396","6,1068",,
@@ -328,12 +330,10 @@ Posición,Especialidad,Tribunal,Fuente,Orden,Acceso,ID,Nombre / Apellidos,Parte 
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03610,1,4419,"GALVEZ PARDO, PEDRO","2,0000","3,6300","5,6300","5,3860","5,508",,
 ,EF,03,0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf,02050,1,4894,"CARMONA PADILLA, DELIA MARIA","2,3550","3,3218","5,6768","5,2220","5,4494",,
 ,EF,06,0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf,04130,1,4777,"GARCIA SANZ, PABLO","2,8550","2,2850","5,1400","5,6580","5,399",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01400,1,2252,"BASTIDA HERNANDEZ, MARIA","2,2938","3,3888","5,6826","5,0121","5,3474",,
 ,EF,05,0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf,03360,1,7841,"FERNANDEZ ROS, MARIA DEL CARMEN","2,9150","2,3800","5,2950","5,3500","5,3225",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07210,1,7970,"MARTINEZ MARTINEZ, PABLO","3,1500","2,1900","5,3400","5,2760","5,308",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,09790,1,5903,"RICHARTE MARTINEZ, MARTA","3,7684","1,3761","5,1445","5,3195","5,232",,
 ,EF,13,0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf,10080,1,3928,"RODRIGUEZ PEREIRA, MARIO","2,8646","2,5753","5,4399","5,0126","5,2262",,
-,EF,02,0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf,01110,1,1869,"AROCA EGEA, JOSE ANTONIO","1,8671","3,1573","5,0244","5,3000","5,1622",,
 ,EF,10,0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf,07680,1,0381,"MOLINA CAÑETE, SERGIO","5,0000","5,0000","10,0000",,,,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02970,1,6538,"DOLERA MONTOYA, SONIA","4,5400","4,9050","9,4450",,,,
 ,EF,04,0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf,02950,1,6430,"DOLERA GONZALEZ, SACRAMENTOS","4,1150","4,4330","8,5480",,,,
