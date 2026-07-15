@@ -16,9 +16,13 @@ Esta aplicación consulta las publicaciones de los tribunales de Educarm y gener
 
 - **1ª Prueba (Total):** resultado conjunto de las partes A y B.
 - **Nota final (examen):** media de la primera y segunda prueba, cuando ambas han sido superadas.
-- **Baremo:** puntuación de méritos publicada por el tribunal.
-- **Nota final (con Baremo):** `Nota final (examen) × 0,6666 + Baremo × 0,3333`.
-- **Posición:** se calcula usando la nota final con baremo. Permanece vacía mientras el tribunal no haya publicado el baremo del candidato.
+- **Baremo (tribunal):** puntuación de méritos publicada oficialmente por el tribunal.
+- **Nota final (con Baremo):** `Nota final (examen) × 0,6666 + Baremo (tribunal) × 0,3333`.
+- **Posición:** se calcula usando la nota final con baremo oficial. Cada especialidad tiene dos clasificaciones independientes: acceso 1 y acceso 2 (reserva para personas con discapacidad). Un aspirante solo se compara con quienes pertenecen a su misma especialidad y acceso. Si todavía no hay posición numérica, la tabla indica el motivo exacto: suspenso, no presentado, pendiente de calificar o pendiente de baremo.
+
+## Resumen del índice
+
+La portada muestra el total de candidatos que superaron la primera prueba y, para cada especialidad, cuántos han aprobado o suspendido la segunda prueba, no se han presentado, siguen pendientes de calificar o están pendientes de baremación. Un tribunal se considera pendiente de baremar únicamente cuando tiene aspirantes que han superado las dos pruebas y todavía no ha publicado su documento único de baremación. Los suspensos no se incluyen en este cálculo.
 
 ## Archivos generados
 
