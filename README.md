@@ -29,6 +29,8 @@ La portada muestra el total de candidatos que superaron la primera prueba y, par
 
 Cada ficha de especialidad permite alternar entre los resultados de la oposición y el ranking de interinos correspondiente. Este segundo ranking procede de la lista provisional BI y muestra puesto, nombre, DNI anonimizado y puntuación total. Es una clasificación independiente de las notas y posiciones de la oposición.
 
+El listado conjunto de interinos parte de todas las personas incluidas en los CSV de interinos, aunque no aparezcan en los resultados de la oposición por no haberse presentado. Las reúne en una clasificación global única, ordenada de mayor a menor por puntuación total. Cada persona aparece una sola vez y su fila indica todas sus especialidades. Si obtiene plaza en cualquiera de ellas, se excluye por completo del ranking global.
+
 Antes de generar el ranking se excluyen las personas identificadas en ambas listas que han obtenido plaza. Los cupos de acceso 1 y acceso 2 se aplican como máximos independientes: si un acceso tiene menos aprobados que plazas, solo se excluyen los aprobados reales y las plazas sobrantes no eliminan a otras personas. Después se recalculan correlativamente los puestos de la lista de interinos, conservando también el puesto original para facilitar la comparación.
 
 ## Archivos generados
@@ -37,6 +39,7 @@ Antes de generar el ranking se excluyen las personas identificadas en ambas list
 - `all_specialties.html`: resultados conjuntos.
 - `<ESPECIALIDAD>.html`: resultados de una especialidad.
 - `interinos.html`: índice general de rankings de interinos.
+- `interinos_todas.html`: listado conjunto de interinos de todas las especialidades.
 - `interinos_<ESPECIALIDAD>.html`: ranking de interinos de una especialidad.
 - Los archivos `.csv` contienen los mismos resultados y los campos internos utilizados durante el procesamiento.
 
