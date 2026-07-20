@@ -29,6 +29,8 @@ La portada muestra el total de candidatos que superaron la primera prueba y, par
 
 Cada ficha de especialidad permite alternar entre los resultados de la oposición y el ranking de interinos correspondiente. Este segundo ranking procede de la lista provisional BI y muestra puesto, nombre, DNI anonimizado y puntuación total. Es una clasificación independiente de las notas y posiciones de la oposición.
 
+Antes de generar el ranking se excluyen las personas identificadas en ambas listas que han obtenido plaza. Los cupos de acceso 1 y acceso 2 se aplican como máximos independientes: si un acceso tiene menos aprobados que plazas, solo se excluyen los aprobados reales y las plazas sobrantes no eliminan a otras personas. Después se recalculan correlativamente los puestos de la lista de interinos, conservando también el puesto original para facilitar la comparación.
+
 ## Archivos generados
 
 - `index.html`: portada con enlaces a todas las especialidades.
