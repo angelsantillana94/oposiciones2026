@@ -1,6 +1,6 @@
 ﻿# Resultados de oposiciones de Educarm
 
-Esta aplicación consulta las publicaciones de los tribunales de Educarm y genera tablas de resultados por especialidad y una tabla conjunta.
+Esta aplicación consulta las publicaciones de los tribunales de Educarm, genera tablas de resultados por especialidad e integra también los rankings de la lista de interinos.
 
 > **Aviso:** esta web no es una fuente oficial. Los datos oficiales deben consultarse siempre en la [página de la Consejería de Educación](https://servicios.educarm.es/admin/index2.php?aplicacion=PUBLICACIONES_TRIBUNALES&module=publicacionesTribunales&anyo=2026&convocatoria=OPOPRI26).
 
@@ -11,6 +11,7 @@ Esta aplicación consulta las publicaciones de los tribunales de Educarm y gener
 3. Los candidatos se identifican usando especialidad, tribunal, número de orden e ID anonimizado. Para el baremo, cuyo PDF no incluye número de orden, se comprueban también el nombre y el ID anonimizado.
 4. Solo se publican candidatos que han superado la primera prueba.
 5. Se generan archivos CSV y HTML con buscador y ordenación de columnas.
+6. Los rankings de interinos se leen de sus CSV y se publican como una clasificación independiente para cada especialidad.
 
 ## Notas y baremo
 
@@ -24,11 +25,17 @@ Esta aplicación consulta las publicaciones de los tribunales de Educarm y gener
 
 La portada muestra el total de candidatos que superaron la primera prueba y, para cada especialidad, cuántos han aprobado o suspendido la segunda prueba, no se han presentado, siguen pendientes de calificar o están pendientes de baremación. Un tribunal se considera pendiente de baremar únicamente cuando tiene aspirantes que han superado las dos pruebas y todavía no ha publicado su documento único de baremación. Los suspensos no se incluyen en este cálculo.
 
+## Rankings de interinos
+
+Cada ficha de especialidad permite alternar entre los resultados de la oposición y el ranking de interinos correspondiente. Este segundo ranking procede de la lista provisional BI y muestra puesto, nombre, DNI anonimizado y puntuación total. Es una clasificación independiente de las notas y posiciones de la oposición.
+
 ## Archivos generados
 
 - `index.html`: portada con enlaces a todas las especialidades.
 - `all_specialties.html`: resultados conjuntos.
 - `<ESPECIALIDAD>.html`: resultados de una especialidad.
+- `interinos.html`: índice general de rankings de interinos.
+- `interinos_<ESPECIALIDAD>.html`: ranking de interinos de una especialidad.
 - Los archivos `.csv` contienen los mismos resultados y los campos internos utilizados durante el procesamiento.
 
 La web se adapta a móviles y permite buscar y ordenar candidatos directamente en el navegador.

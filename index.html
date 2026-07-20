@@ -72,8 +72,9 @@ main{padding:34px 0 72px;}
 .progress-fill{height:100%;border-radius:inherit;background:var(--slate);}
 .pending-tribunals{margin:16px 0 0;padding:12px 13px;border-radius:12px;background:var(--soft-waiting);color:#725a37;font-size:.8rem;line-height:1.45;}
 .pending-tribunals strong{color:#5b462a;font-variant-numeric:tabular-nums;}
-.card-footer{display:flex;align-items:center;justify-content:flex-end;margin-top:18px;}
+.card-footer{display:flex;align-items:center;justify-content:flex-end;gap:14px;flex-wrap:wrap;margin-top:18px;}
 .text-link{color:var(--slate-dark);font-size:.86rem;font-weight:850;text-decoration:none;}.text-link:hover{text-decoration:underline;text-underline-offset:4px;}
+.text-link.interim{color:#725a37;}
 a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
 @media (max-width:900px){.overview{grid-template-columns:1fr}.overview-chart{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:24px}.block-label{grid-column:1/-1;margin-bottom:0}.donut-wrap{grid-column:1/-1}.section-heading{align-items:start;flex-direction:column}.section-hint{text-align:left}}
 @media (max-width:760px){.header-inner,main{width:min(100% - 24px,680px)}.header-inner{padding:20px 0 30px}.topline{align-items:flex-start;flex-direction:column;margin-bottom:34px}.updated{font-size:.82rem}main{padding-top:22px}.overview-chart,.overview-metrics{padding:22px}.specialty-grid{grid-template-columns:1fr}.index-actions{margin-bottom:36px}.specialty-card:hover{transform:none}}
@@ -85,7 +86,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
   <header class="site-header"><div class="header-inner">
     <div class="topline">
       <div class="brand"><span class="brand-mark">M26</span><span>Resultados docentes</span></div>
-      <p class="updated"><span class="live-dot" aria-hidden="true"></span>Actualizado el 20/07/2026 15:35</p>
+      <p class="updated"><span class="live-dot" aria-hidden="true"></span>Actualizado el 20/07/2026 15:34</p>
     </div>
     <p class="eyebrow">Proceso selectivo · Región de Murcia</p>
     <h1>Oposiciones de Maestros <span>2026</span></h1>
@@ -115,6 +116,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
     </section>
     <nav class="index-actions" aria-label="Enlaces de resultados">
       <a class="primary-link" href="all_specialties.html">Ver clasificación completa <span aria-hidden="true">&nbsp;→</span></a>
+      <a class="secondary-link" href="interinos.html">Rankings de interinos</a>
       <a class="secondary-link" href="README.md">Cómo se calculan los datos</a>
     </nav>
     <div class="section-heading">
@@ -138,7 +140,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>146 de 146 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="AL.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_AL.html">Interinos (1.597)</a><a class="text-link" href="AL.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -156,7 +158,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>356 de 356 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="EF.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_EF.html">Interinos (1.056)</a><a class="text-link" href="EF.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -174,7 +176,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>1.090 de 1.090 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="EI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_EI.html">Interinos (3.045)</a><a class="text-link" href="EI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -192,7 +194,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>96 de 96 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="FF.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_FF.html">Interinos (310)</a><a class="text-link" href="FF.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -210,7 +212,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>197 de 197 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="FI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_FI.html">Interinos (1.371)</a><a class="text-link" href="FI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -228,7 +230,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>100 de 100 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="MU.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_MU.html">Interinos (500)</a><a class="text-link" href="MU.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -246,7 +248,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>746 de 746 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="PRI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_PRI.html">Interinos (5.629)</a><a class="text-link" href="PRI.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
       <article class="specialty-card">
         <header class="specialty-header">
@@ -264,7 +266,7 @@ a:focus-visible{outline:3px solid #aebbc7;outline-offset:3px;}
           <div class="baremo-label"><span>Baremo oficial publicado</span><strong>497 de 497 · 100,00%</strong></div>
           <div class="progress-track" role="progressbar" aria-label="Baremo oficial publicado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="progress-fill" style="width:100.00%"></div></div>
         </div>
-        <footer class="card-footer"><a class="text-link" href="PT.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
+        <footer class="card-footer"><a class="text-link interim" href="interinos_PT.html">Interinos (2.227)</a><a class="text-link" href="PT.html">Ver resultados <span aria-hidden="true">→</span></a></footer>
       </article>
     </div>
   </main>
