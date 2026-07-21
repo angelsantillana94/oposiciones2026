@@ -23,7 +23,7 @@ Esta aplicación consulta las publicaciones de los tribunales de Educarm, genera
 
 ## Resumen del índice
 
-La portada muestra el total de candidatos que superaron la primera prueba y, para cada especialidad, cuántos han aprobado o suspendido la segunda prueba, no se han presentado, siguen pendientes de calificar o están pendientes de baremación. Un tribunal se considera pendiente de baremar únicamente cuando tiene aspirantes que han superado las dos pruebas y todavía no ha publicado su documento único de baremación. Los suspensos no se incluyen en este cálculo.
+La portada muestra el total de candidatos que superaron la primera prueba y, para cada especialidad, cuántos han aprobado o suspendido la segunda prueba, no se han presentado, siguen pendientes de calificar o están pendientes de baremación. Las filas con el texto «No Presentado» se registran como `NP`. La publicación del baremo también confirma que el tribunal ha cerrado la segunda prueba; si un aspirante no figura en sus documentos de calificaciones, deja de considerarse pendiente y se registra como no presentado. Un tribunal se considera pendiente de baremar únicamente cuando tiene aspirantes que han superado las dos pruebas y todavía no ha publicado su documento único de baremación. Los suspensos no se incluyen en este cálculo.
 
 ## Lista de interinos
 
