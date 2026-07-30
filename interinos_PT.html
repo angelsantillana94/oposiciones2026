@@ -1696,4 +1696,10 @@ a:focus-visible,button:focus-visible{outline:3px solid #b9dcf5;outline-offset:3p
   </main>
   <script>
 function cellValue(cell){return cell.dataset.sortValue ?? cell.innerText.trim();}
-function sortRows(n,order){const table=d
+function sortRows(n,order){const table=document.getElementById("data-table");const tbody=table.tBodies[0];const rows=Array.from(tbody.rows);const th=table.tHead.rows[0].cells[n];const type=th.dataset.type||"string";table.tHead.querySelectorAll("th").forEach(item=>item.dataset.order="");th.dataset.order=order;rows.sort((a,b)=>{let va=cellValue(a.cells[n]);let vb=cellValue(b.cells[n]);if(type==="number"){va=Number(va)||0;vb=Number(vb)||0;return order==="asc"?va-vb:vb-va;}return order==="asc"?va.localeCompare(vb,"es",{sensitivity:"base"}):vb.localeCompare(va,"es",{sensitivity:"base"});});rows.forEach(row=>tbody.appendChild(row));}
+function sortTable(n){const th=document.getElementById("data-table").tHead.rows[0].cells[n];sortRows(n,th.dataset.order==="asc"?"desc":"asc");}
+function normalizeText(value){return value.toLocaleLowerCase("es").normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim();}
+function filterTable(){const query=normalizeText(document.getElementById("search").value);const rows=document.getElementById("data-table").tBodies[0].rows;let visible=0;for(const row of rows){const matches=normalizeText(row.textContent).includes(query);row.style.display=matches?"":"none";if(matches)visible+=1;}document.getElementById("result-count").textContent=`${visible} ${visible===1?"resultado":"resultados"}`;}
+  </script>
+</body>
+</html>
